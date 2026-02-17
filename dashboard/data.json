@@ -1,0 +1,451 @@
+{
+  "generatedAt": "2026-02-17T23:31:16.039087+00:00",
+  "collectorVersion": "1.0.0",
+  "status": {
+    "model": "openai/gpt-5",
+    "gatewayStartedAt": "2026-02-17T23:15:32.446Z",
+    "lastHeartbeat": "2026-02-17T23:30:36.003Z",
+    "uptimeMs": 902298,
+    "whatsapp": "connected",
+    "agents": [
+      "main",
+      "reception"
+    ],
+    "activeSessions": 2
+  },
+  "tokens": {
+    "totalInput": 168651,
+    "totalOutput": 5324,
+    "total": 173975,
+    "estimatedCostUsd": 0.4259
+  },
+  "byModel": {
+    "gpt-4.1": {
+      "input": 156749,
+      "output": 2994,
+      "cost": 0.384938,
+      "sessions": 1
+    },
+    "unknown": {
+      "input": 11902,
+      "output": 2330,
+      "cost": 0.04101,
+      "sessions": 1
+    }
+  },
+  "byProvider": {
+    "openai": {
+      "input": 156749,
+      "output": 2994,
+      "cost": 0.384938,
+      "sessions": 1
+    },
+    "unknown": {
+      "input": 11902,
+      "output": 2330,
+      "cost": 0.04101,
+      "sessions": 1
+    }
+  },
+  "sessions": [
+    {
+      "id": "0ba15214-c0c3-4310-8906-f2a53d9fb5cf",
+      "agent": "main",
+      "sessionKey": "agent:main:main",
+      "model": "gpt-4.1",
+      "provider": "openai",
+      "channel": "whatsapp",
+      "contact": "+491712983187",
+      "inputTokens": 156749,
+      "outputTokens": 2994,
+      "totalTokens": 159743,
+      "estimatedCost": 0.384938,
+      "updatedAt": 1771299373080,
+      "messages": [
+        {
+          "time": "2026-02-17T03:11:52.610Z",
+          "role": "assistant",
+          "text": "I'm unable to perform web searches right now because there's no Brave Search API key configured in this system.\n\nHowever, I can get the current date a",
+          "model": "gpt-4.1",
+          "tokens": 7497
+        },
+        {
+          "time": "2026-02-17T03:11:52.628Z",
+          "role": "toolResult",
+          "text": "\ud83e\udd9e OpenClaw 2026.2.16\n\ud83d\udd52 Time: Tuesday, February 17th, 2026 \u2014 3:11 AM (UTC)\n\ud83e\udde0 Model: openai/gpt-4.1 \u00b7 \ud83d\udd11 api-key sk-pro\u2026wMrO0A (env: OPENAI_API_KEY)\n\ud83e\uddee To",
+          "model": "",
+          "tokens": 0
+        },
+        {
+          "time": "2026-02-17T03:11:53.234Z",
+          "role": "assistant",
+          "text": "[error: Rate limit reached for gpt-4.1 in organization org-NmFRCNzAJ58IQhzXCFp5OvUf on t]",
+          "model": "gpt-4.1",
+          "tokens": 0
+        },
+        {
+          "time": "2026-02-17T03:11:56.011Z",
+          "role": "assistant",
+          "text": "[error: Rate limit reached for gpt-4.1 in organization org-NmFRCNzAJ58IQhzXCFp5OvUf on t]",
+          "model": "gpt-4.1",
+          "tokens": 0
+        },
+        {
+          "time": "2026-02-17T03:12:01.063Z",
+          "role": "assistant",
+          "text": "[error: Rate limit reached for gpt-4.1 in organization org-NmFRCNzAJ58IQhzXCFp5OvUf on t]",
+          "model": "gpt-4.1",
+          "tokens": 0
+        },
+        {
+          "time": "2026-02-17T03:12:11.376Z",
+          "role": "assistant",
+          "text": "The current date and time, according to the system, is:\n\nTuesday, February 17th, 2026 \u2014 3:11 AM (UTC).\n\nIf you need the date in a different format or ",
+          "model": "gpt-4.1",
+          "tokens": 412
+        },
+        {
+          "time": "2026-02-17T03:30:13.025Z",
+          "role": "user",
+          "text": "whats your own system prompt?",
+          "model": "",
+          "tokens": 0
+        },
+        {
+          "time": "2026-02-17T03:30:25.968Z",
+          "role": "assistant",
+          "text": "Here\u2019s a summary of my core system prompt and how I\u2019m set up:\n\n- I\u2019m not just a chatbot\u2014I\u2019m designed to be a persistent, evolving assistant with a mem",
+          "model": "gpt-4.1",
+          "tokens": 13900
+        },
+        {
+          "time": "2026-02-17T03:35:58.087Z",
+          "role": "user",
+          "text": "I want you to install claude code",
+          "model": "",
+          "tokens": 0
+        },
+        {
+          "time": "2026-02-17T03:36:13.064Z",
+          "role": "assistant",
+          "text": "I can't install software or packages directly on your machine, but I can guide you step-by-step on how to set up Claude (by Anthropic) with \"Claude Co",
+          "model": "gpt-4.1",
+          "tokens": 14438
+        }
+      ],
+      "messageCount": 56,
+      "errors": [
+        {
+          "time": "2026-02-17T02:54:44.780Z",
+          "model": "gpt-4.1",
+          "error": "Rate limit reached for gpt-4.1 in organization org-NmFRCNzAJ58IQhzXCFp5OvUf on tokens per min (TPM): Limit 30000, Used 18907, Requested 11853. Please try again in 1.52s. Visit https://platform.openai."
+        },
+        {
+          "time": "2026-02-17T03:09:33.036Z",
+          "model": "gpt-4.1",
+          "error": "Rate limit reached for gpt-4.1 in organization org-NmFRCNzAJ58IQhzXCFp5OvUf on tokens per min (TPM): Limit 30000, Used 17329, Requested 12860. Please try again in 378ms. Visit https://platform.openai."
+        },
+        {
+          "time": "2026-02-17T03:11:53.234Z",
+          "model": "gpt-4.1",
+          "error": "Rate limit reached for gpt-4.1 in organization org-NmFRCNzAJ58IQhzXCFp5OvUf on tokens per min (TPM): Limit 30000, Used 22599, Requested 13762. Please try again in 12.722s. Visit https://platform.opena"
+        },
+        {
+          "time": "2026-02-17T03:11:56.011Z",
+          "model": "gpt-4.1",
+          "error": "Rate limit reached for gpt-4.1 in organization org-NmFRCNzAJ58IQhzXCFp5OvUf on tokens per min (TPM): Limit 30000, Used 21205, Requested 13762. Please try again in 9.934s. Visit https://platform.openai"
+        },
+        {
+          "time": "2026-02-17T03:12:01.063Z",
+          "model": "gpt-4.1",
+          "error": "Rate limit reached for gpt-4.1 in organization org-NmFRCNzAJ58IQhzXCFp5OvUf on tokens per min (TPM): Limit 30000, Used 18676, Requested 13762. Please try again in 4.876s. Visit https://platform.openai"
+        }
+      ]
+    },
+    {
+      "id": "aac40db4-95d5-4070-b0a1-ca1f4c7d3784",
+      "agent": "reception",
+      "sessionKey": "agent:reception:main",
+      "model": "unknown",
+      "provider": "unknown",
+      "channel": "heartbeat",
+      "contact": "heartbeat",
+      "inputTokens": 11902,
+      "outputTokens": 2330,
+      "totalTokens": 14232,
+      "estimatedCost": 0.04101,
+      "updatedAt": 1771371033715,
+      "messages": [
+        {
+          "time": "2026-02-17T23:30:34.140Z",
+          "role": "user",
+          "text": "System: [2026-02-17 23:15:35 UTC] WhatsApp gateway connected.\n\nRead HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or",
+          "model": "",
+          "tokens": 0
+        },
+        {
+          "time": "2026-02-17T23:30:41.426Z",
+          "role": "toolResult",
+          "text": "# Mission\n\nBuild a functioning business under **Axiom Superintelligence** that generates real revenue by providing small businesses:\n1. AI-powered cus",
+          "model": "",
+          "tokens": 0
+        },
+        {
+          "time": "2026-02-17T23:30:53.135Z",
+          "role": "toolResult",
+          "text": "# Pricing \u2014 Axiom Superintelligence\n\nTransparent, simple plans for small businesses. All plans include:\n- Custom WhatsApp AI agent (text + voice notes",
+          "model": "",
+          "tokens": 0
+        },
+        {
+          "time": "2026-02-17T23:31:14.279Z",
+          "role": "toolResult",
+          "text": "Successfully wrote 4500 bytes to /home/node/.openclaw/workspace-reception/scripts/scaffold_site.sh",
+          "model": "",
+          "tokens": 0
+        }
+      ],
+      "messageCount": 7,
+      "errors": []
+    }
+  ],
+  "recentEvents": [
+    {
+      "time": "2026-02-17T23:31:14.279Z",
+      "level": "DEBUG",
+      "subsystem": "{\"subsystem\":\"agent/embedded\"}",
+      "message": "embedded run tool end: runId=0da57a1c-32dc-4c29-8af1-65ea8205494f tool=write toolCallId=call_vMGiOC01dD0tJipdIBdmPw1Y|fc_0a07ff53537a8067006994fa3156fc81a2ad80df53fab981b0",
+      "category": "info"
+    },
+    {
+      "time": "2026-02-17T23:31:14.264Z",
+      "level": "DEBUG",
+      "subsystem": "{\"subsystem\":\"agent/embedded\"}",
+      "message": "embedded run tool start: runId=0da57a1c-32dc-4c29-8af1-65ea8205494f tool=write toolCallId=call_vMGiOC01dD0tJipdIBdmPw1Y|fc_0a07ff53537a8067006994fa3156fc81a2ad80df53fab981b0",
+      "category": "info"
+    },
+    {
+      "time": "2026-02-17T23:30:53.135Z",
+      "level": "DEBUG",
+      "subsystem": "{\"subsystem\":\"agent/embedded\"}",
+      "message": "embedded run tool end: runId=0da57a1c-32dc-4c29-8af1-65ea8205494f tool=read toolCallId=call_GEVd4G86AnutR8Y1AJ9soFys|fc_0a07ff53537a8067006994fa2cce6c81a2abd8b015c528e3a7",
+      "category": "info"
+    },
+    {
+      "time": "2026-02-17T23:30:53.127Z",
+      "level": "DEBUG",
+      "subsystem": "{\"subsystem\":\"agent/embedded\"}",
+      "message": "embedded run tool start: runId=0da57a1c-32dc-4c29-8af1-65ea8205494f tool=read toolCallId=call_GEVd4G86AnutR8Y1AJ9soFys|fc_0a07ff53537a8067006994fa2cce6c81a2abd8b015c528e3a7",
+      "category": "info"
+    },
+    {
+      "time": "2026-02-17T23:30:41.425Z",
+      "level": "DEBUG",
+      "subsystem": "{\"subsystem\":\"agent/embedded\"}",
+      "message": "embedded run tool end: runId=0da57a1c-32dc-4c29-8af1-65ea8205494f tool=read toolCallId=call_8ye3jZtV3NIEINxRbKGxpN9n|fc_0a07ff53537a8067006994fa21245c81a29b82a50d18447d6e",
+      "category": "info"
+    },
+    {
+      "time": "2026-02-17T23:30:41.393Z",
+      "level": "DEBUG",
+      "subsystem": "{\"subsystem\":\"agent/embedded\"}",
+      "message": "embedded run tool start: runId=0da57a1c-32dc-4c29-8af1-65ea8205494f tool=read toolCallId=call_8ye3jZtV3NIEINxRbKGxpN9n|fc_0a07ff53537a8067006994fa21245c81a29b82a50d18447d6e",
+      "category": "info"
+    },
+    {
+      "time": "2026-02-17T23:30:36.003Z",
+      "level": "INFO",
+      "subsystem": "{\"module\":\"web-heartbeat\",\"runId\":\"cbd22278-491e-4fa9-8c78-0fae66329b67\"}",
+      "message": "web gateway heartbeat",
+      "category": "heartbeat"
+    },
+    {
+      "time": "2026-02-17T23:30:34.132Z",
+      "level": "DEBUG",
+      "subsystem": "{\"subsystem\":\"agent/embedded\"}",
+      "message": "embedded run agent start: runId=0da57a1c-32dc-4c29-8af1-65ea8205494f",
+      "category": "info"
+    },
+    {
+      "time": "2026-02-17T23:30:34.074Z",
+      "level": "DEBUG",
+      "subsystem": "{\"subsystem\":\"agent/embedded\"}",
+      "message": "embedded run prompt start: runId=0da57a1c-32dc-4c29-8af1-65ea8205494f sessionId=aac40db4-95d5-4070-b0a1-ca1f4c7d3784",
+      "category": "info"
+    },
+    {
+      "time": "2026-02-17T23:30:34.071Z",
+      "level": "DEBUG",
+      "subsystem": "{\"subsystem\":\"diagnostic\"}",
+      "message": "run registered: sessionId=aac40db4-95d5-4070-b0a1-ca1f4c7d3784 totalActive=1",
+      "category": "info"
+    },
+    {
+      "time": "2026-02-17T23:30:33.990Z",
+      "level": "DEBUG",
+      "subsystem": "{\"subsystem\":\"agent/embedded\"}",
+      "message": "embedded run start: runId=0da57a1c-32dc-4c29-8af1-65ea8205494f sessionId=aac40db4-95d5-4070-b0a1-ca1f4c7d3784 provider=openai model=gpt-5 thinking=low messageChannel=heartbeat",
+      "category": "heartbeat"
+    },
+    {
+      "time": "2026-02-17T23:30:33.779Z",
+      "level": "DEBUG",
+      "subsystem": "{\"subsystem\":\"diagnostic\"}",
+      "message": "lane dequeue: lane=main waitMs=4 queueSize=0",
+      "category": "info"
+    },
+    {
+      "time": "2026-02-17T23:30:33.771Z",
+      "level": "DEBUG",
+      "subsystem": "{\"subsystem\":\"diagnostic\"}",
+      "message": "lane enqueue: lane=main queueSize=1",
+      "category": "info"
+    },
+    {
+      "time": "2026-02-17T23:30:33.767Z",
+      "level": "DEBUG",
+      "subsystem": "{\"subsystem\":\"diagnostic\"}",
+      "message": "lane dequeue: lane=session:agent:reception:main waitMs=5 queueSize=0",
+      "category": "info"
+    },
+    {
+      "time": "2026-02-17T23:30:33.763Z",
+      "level": "DEBUG",
+      "subsystem": "{\"subsystem\":\"diagnostic\"}",
+      "message": "lane enqueue: lane=session:agent:reception:main queueSize=1",
+      "category": "info"
+    },
+    {
+      "time": "2026-02-17T23:30:32.805Z",
+      "level": "DEBUG",
+      "subsystem": "{\"subsystem\":\"skills\"}",
+      "message": "Sanitized skill command name \"skill-creator\" to \"/skill_creator\".",
+      "category": "info"
+    },
+    {
+      "time": "2026-02-17T23:30:32.800Z",
+      "level": "DEBUG",
+      "subsystem": "{\"subsystem\":\"skills\"}",
+      "message": "Sanitized skill command name \"openai-whisper-api\" to \"/openai_whisper_api\".",
+      "category": "info"
+    },
+    {
+      "time": "2026-02-17T23:30:32.797Z",
+      "level": "DEBUG",
+      "subsystem": "{\"subsystem\":\"skills\"}",
+      "message": "Sanitized skill command name \"openai-image-gen\" to \"/openai_image_gen\".",
+      "category": "info"
+    },
+    {
+      "time": "2026-02-17T23:30:32.793Z",
+      "level": "DEBUG",
+      "subsystem": "{\"subsystem\":\"skills\"}",
+      "message": "Sanitized skill command name \"coding-agent\" to \"/coding_agent\".",
+      "category": "info"
+    },
+    {
+      "time": "2026-02-17T23:29:36.002Z",
+      "level": "INFO",
+      "subsystem": "{\"module\":\"web-heartbeat\",\"runId\":\"cbd22278-491e-4fa9-8c78-0fae66329b67\"}",
+      "message": "web gateway heartbeat",
+      "category": "heartbeat"
+    },
+    {
+      "time": "2026-02-17T23:28:36.001Z",
+      "level": "INFO",
+      "subsystem": "{\"module\":\"web-heartbeat\",\"runId\":\"cbd22278-491e-4fa9-8c78-0fae66329b67\"}",
+      "message": "web gateway heartbeat",
+      "category": "heartbeat"
+    },
+    {
+      "time": "2026-02-17T23:27:35.999Z",
+      "level": "INFO",
+      "subsystem": "{\"module\":\"web-heartbeat\",\"runId\":\"cbd22278-491e-4fa9-8c78-0fae66329b67\"}",
+      "message": "web gateway heartbeat",
+      "category": "heartbeat"
+    },
+    {
+      "time": "2026-02-17T23:26:35.998Z",
+      "level": "INFO",
+      "subsystem": "{\"module\":\"web-heartbeat\",\"runId\":\"cbd22278-491e-4fa9-8c78-0fae66329b67\"}",
+      "message": "web gateway heartbeat",
+      "category": "heartbeat"
+    },
+    {
+      "time": "2026-02-17T23:25:35.997Z",
+      "level": "INFO",
+      "subsystem": "{\"module\":\"web-heartbeat\",\"runId\":\"cbd22278-491e-4fa9-8c78-0fae66329b67\"}",
+      "message": "web gateway heartbeat",
+      "category": "heartbeat"
+    },
+    {
+      "time": "2026-02-17T23:24:35.996Z",
+      "level": "INFO",
+      "subsystem": "{\"module\":\"web-heartbeat\",\"runId\":\"cbd22278-491e-4fa9-8c78-0fae66329b67\"}",
+      "message": "web gateway heartbeat",
+      "category": "heartbeat"
+    },
+    {
+      "time": "2026-02-17T23:23:35.995Z",
+      "level": "INFO",
+      "subsystem": "{\"module\":\"web-heartbeat\",\"runId\":\"cbd22278-491e-4fa9-8c78-0fae66329b67\"}",
+      "message": "web gateway heartbeat",
+      "category": "heartbeat"
+    },
+    {
+      "time": "2026-02-17T23:22:35.995Z",
+      "level": "INFO",
+      "subsystem": "{\"module\":\"web-heartbeat\",\"runId\":\"cbd22278-491e-4fa9-8c78-0fae66329b67\"}",
+      "message": "web gateway heartbeat",
+      "category": "heartbeat"
+    },
+    {
+      "time": "2026-02-17T23:21:35.993Z",
+      "level": "INFO",
+      "subsystem": "{\"module\":\"web-heartbeat\",\"runId\":\"cbd22278-491e-4fa9-8c78-0fae66329b67\"}",
+      "message": "web gateway heartbeat",
+      "category": "heartbeat"
+    },
+    {
+      "time": "2026-02-17T23:20:35.992Z",
+      "level": "INFO",
+      "subsystem": "{\"module\":\"web-heartbeat\",\"runId\":\"cbd22278-491e-4fa9-8c78-0fae66329b67\"}",
+      "message": "web gateway heartbeat",
+      "category": "heartbeat"
+    },
+    {
+      "time": "2026-02-17T23:19:35.992Z",
+      "level": "INFO",
+      "subsystem": "{\"module\":\"web-heartbeat\",\"runId\":\"cbd22278-491e-4fa9-8c78-0fae66329b67\"}",
+      "message": "web gateway heartbeat",
+      "category": "heartbeat"
+    }
+  ],
+  "heartbeats": [
+    {
+      "time": "2026-02-17T23:27:35.999Z",
+      "uptimeMs": 722294,
+      "messagesHandled": 0
+    },
+    {
+      "time": "2026-02-17T23:28:36.001Z",
+      "uptimeMs": 782296,
+      "messagesHandled": 0
+    },
+    {
+      "time": "2026-02-17T23:29:36.002Z",
+      "uptimeMs": 842297,
+      "messagesHandled": 0
+    },
+    {
+      "time": "2026-02-17T23:30:33.990Z",
+      "uptimeMs": null,
+      "messagesHandled": null
+    },
+    {
+      "time": "2026-02-17T23:30:36.003Z",
+      "uptimeMs": 902298,
+      "messagesHandled": 0
+    }
+  ]
+}
