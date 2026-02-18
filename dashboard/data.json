@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-02-18T04:50:40.701074+00:00",
+  "generatedAt": "2026-02-18T07:02:42.653951+00:00",
   "collectorVersion": "3.0.0",
   "status": {
     "model": "openai/gpt-5",
-    "gatewayStartedAt": "2026-02-18T01:35:31.169Z",
-    "lastHeartbeat": "2026-02-18T04:50:35.354Z",
-    "uptimeMs": 8880722,
+    "gatewayStartedAt": "2026-02-18T06:32:36.532Z",
+    "lastHeartbeat": "2026-02-18T07:02:42.475Z",
+    "uptimeMs": 1803701,
     "messagesHandled": 0,
     "whatsapp": "connected",
     "agents": [
@@ -15,27 +15,27 @@
     "activeSessions": 3
   },
   "tokens": {
-    "totalInput": 555915,
-    "totalOutput": 26615,
-    "total": 582530,
-    "estimatedCostUsd": 1.341,
-    "inputOutputRatio": 20.9,
+    "totalInput": 572097,
+    "totalOutput": 40756,
+    "total": 612853,
+    "estimatedCostUsd": 1.384,
+    "inputOutputRatio": 14.0,
     "openai": {
-      "input": 457284,
-      "output": 26610,
-      "cost": 1.045
+      "input": 572097,
+      "output": 40756,
+      "cost": 1.384
     },
     "anthropic": {
-      "input": 98631,
-      "output": 5,
-      "cost": 0.296
+      "input": 0,
+      "output": 0,
+      "cost": 0.0
     }
   },
   "byModel": {
     "gpt-5": {
-      "input": 300535,
-      "output": 23616,
-      "cost": 0.660069,
+      "input": 415348,
+      "output": 37762,
+      "cost": 0.999045,
       "sessions": 2,
       "isCurrent": true
     },
@@ -44,26 +44,14 @@
       "output": 2994,
       "cost": 0.384938,
       "sessions": 1
-    },
-    "claude-sonnet-4-5-20250929": {
-      "input": 98631,
-      "output": 5,
-      "cost": 0.295968,
-      "sessions": 1
     }
   },
   "byProvider": {
     "openai": {
-      "input": 457284,
-      "output": 26610,
-      "cost": 1.045007,
+      "input": 572097,
+      "output": 40756,
+      "cost": 1.383983,
       "sessions": 3
-    },
-    "anthropic": {
-      "input": 98631,
-      "output": 5,
-      "cost": 0.295968,
-      "sessions": 1
     }
   },
   "sessions": [
@@ -240,84 +228,84 @@
       "provider": "openai",
       "channel": "heartbeat",
       "contact": "+491712983187",
-      "inputTokens": 37447,
-      "outputTokens": 11133,
-      "totalTokens": 48580,
-      "estimatedCost": 0.187051,
-      "updatedAt": 1771390231278,
+      "inputTokens": 152260,
+      "outputTokens": 25279,
+      "totalTokens": 177539,
+      "estimatedCost": 0.526027,
+      "updatedAt": 1771398156531,
       "messages": [
         {
-          "time": "2026-02-18T04:21:19.597Z",
+          "time": "2026-02-18T05:21:05.510Z",
           "role": "toolResult",
-          "text": "Successfully replaced text in /home/node/.openclaw/workspace-reception/LEARNINGS.md.",
+          "text": "Successfully wrote 2332 bytes to /home/node/.openclaw/workspace-reception/WEBSITE_INTAKE.md",
           "model": "",
           "tokens": 0
         },
         {
-          "time": "2026-02-18T04:21:22.484Z",
-          "role": "toolResult",
-          "text": "[main 12fadd0] heartbeat: mark pitch task complete in GOALS.md; log next step in LEARNINGS.md\n 2 files changed, 4 insertions(+), 1 deletion(-)\nTo http",
-          "model": "",
-          "tokens": 0
-        },
-        {
-          "time": "2026-02-18T04:21:24.549Z",
-          "role": "assistant",
-          "text": "HEARTBEAT_OK",
-          "model": "gpt-5",
-          "tokens": 107
-        },
-        {
-          "time": "2026-02-18T04:35:32.103Z",
-          "role": "user",
-          "text": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention,",
-          "model": "",
-          "tokens": 0
-        },
-        {
-          "time": "2026-02-18T04:35:49.782Z",
-          "role": "toolResult",
-          "text": "Successfully wrote 1944 bytes to /home/node/.openclaw/workspace-reception/OBJECTIONS.md",
-          "model": "",
-          "tokens": 0
-        },
-        {
-          "time": "2026-02-18T04:36:09.304Z",
+          "time": "2026-02-18T05:21:19.795Z",
           "role": "toolResult",
           "text": "Successfully replaced text in /home/node/.openclaw/workspace-reception/GOALS.md.",
           "model": "",
           "tokens": 0
         },
         {
-          "time": "2026-02-18T04:36:29.689Z",
+          "time": "2026-02-18T05:21:37.654Z",
           "role": "toolResult",
           "text": "Successfully replaced text in /home/node/.openclaw/workspace-reception/LEARNINGS.md.",
           "model": "",
           "tokens": 0
         },
         {
-          "time": "2026-02-18T04:36:33.208Z",
+          "time": "2026-02-18T05:21:40.485Z",
           "role": "toolResult",
-          "text": "[main dbf65a1] heartbeat: add OBJECTIONS.md; mark objection handling complete; log in LEARNINGS.md\n 3 files changed, 46 insertions(+), 1 deletion(-)\n ",
+          "text": "[main 9cf16a7] heartbeat: add WEBSITE_INTAKE.md; mark Phase 3 intake flow complete; log learnings\n 3 files changed, 84 insertions(+), 1 deletion(-)\n c",
           "model": "",
           "tokens": 0
         },
         {
-          "time": "2026-02-18T04:36:34.743Z",
+          "time": "2026-02-18T05:21:42.041Z",
           "role": "assistant",
           "text": "HEARTBEAT_OK",
           "model": "gpt-5",
-          "tokens": 201
+          "tokens": 166
         },
         {
-          "time": "2026-02-18T04:50:31.920Z",
+          "time": "2026-02-18T05:49:22.815Z",
+          "role": "user",
+          "text": "System: [2026-02-18 05:34:26 UTC] WhatsApp gateway connected.\n\nRead HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or",
+          "model": "",
+          "tokens": 0
+        },
+        {
+          "time": "2026-02-18T05:49:38.143Z",
+          "role": "assistant",
+          "text": "HEARTBEAT_OK",
+          "model": "gpt-5",
+          "tokens": 35835
+        },
+        {
+          "time": "2026-02-18T06:47:38.197Z",
+          "role": "user",
+          "text": "System: [2026-02-18 06:32:42 UTC] WhatsApp gateway connected.\n\nRead HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or",
+          "model": "",
+          "tokens": 0
+        },
+        {
+          "time": "2026-02-18T06:47:47.639Z",
+          "role": "assistant",
+          "text": "HEARTBEAT_OK",
+          "model": "gpt-5",
+          "tokens": 35701
+        },
+        {
+          "time": "2026-02-18T07:02:37.138Z",
           "role": "user",
           "text": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention,",
           "model": "",
           "tokens": 0
         }
       ],
-      "messageCount": 33,
+      "messageCount": 69,
       "errors": [],
       "toolCalls": [
         {
@@ -408,6 +396,97 @@
           "time": "2026-02-18T04:36:32.414Z",
           "name": "exec",
           "argsPreview": "{\"command\": \"bash -lc 'cd /home/node/.openclaw/workspace-reception && git add -A && git commit -m \\\"heartbeat: add OBJECTIONS.md; mark objection handling complete; log in LEARNINGS.md\\\" && git push'\",",
+          "model": "gpt-5",
+          "isClaudeExec": false
+        },
+        {
+          "time": "2026-02-18T04:51:04.785Z",
+          "name": "exec",
+          "argsPreview": "{\"command\": \"bash -lc 'mkdir -p /home/node/website/demo-intake && cat > /home/node/website/demo-intake/index.html << \\\"EOF\\\"\\n<!DOCTYPE html>\\n<html lang=\\\"en\\\">\\n<head>\\n  <meta charset=\\\"UTF-8\\\" />\\",
+          "model": "gpt-5",
+          "isClaudeExec": false
+        },
+        {
+          "time": "2026-02-18T04:51:06.589Z",
+          "name": "exec",
+          "argsPreview": "{\"command\": \"bash -lc 'cd /home/node/website && git add -A && git commit -m \\\"feat(demo-intake): add client demo intake form to generate demo-config.json\\\" && git push'\", \"timeout\": 120000}",
+          "model": "gpt-5",
+          "isClaudeExec": false
+        },
+        {
+          "time": "2026-02-18T04:51:21.550Z",
+          "name": "edit",
+          "argsPreview": "{\"path\": \"/home/node/.openclaw/workspace-reception/LEARNINGS.md\", \"oldText\": \"# Learnings\\n\\n_Append-only. Never delete entries. Every mistake is a lesson._\\n\\n## System & Infrastructure\\n- Images and",
+          "model": "gpt-5",
+          "isClaudeExec": false
+        },
+        {
+          "time": "2026-02-18T04:51:23.317Z",
+          "name": "exec",
+          "argsPreview": "{\"command\": \"bash -lc 'cd /home/node/.openclaw/workspace-reception && git add -A && git commit -m \\\"heartbeat: log demo-intake page in LEARNINGS.md\\\" && git push'\", \"timeout\": 120000}",
+          "model": "gpt-5",
+          "isClaudeExec": false
+        },
+        {
+          "time": "2026-02-18T05:05:54.129Z",
+          "name": "write",
+          "argsPreview": "{\"path\": \"/home/node/.openclaw/workspace-reception/DEMO_SETUP.md\", \"content\": \"# Live Demo Setup \\u2014 Axiom WhatsApp AI\\n\\nQuick guide to spin up a prospect demo using a simple JSON config.\\n\\n## 1)",
+          "model": "gpt-5",
+          "isClaudeExec": false
+        },
+        {
+          "time": "2026-02-18T05:05:59.867Z",
+          "name": "write",
+          "argsPreview": "{\"path\": \"/home/node/.openclaw/workspace-reception/demo-config.sample.json\", \"content\": \"{\\n  \\\"meta\\\": { \\\"version\\\": 1, \\\"created_at_utc\\\": \\\"2026-02-18T00:00:00Z\\\" },\\n  \\\"business\\\": {\\n    \\\"name",
+          "model": "gpt-5",
+          "isClaudeExec": false
+        },
+        {
+          "time": "2026-02-18T05:06:04.899Z",
+          "name": "exec",
+          "argsPreview": "{\"command\": \"bash -lc 'cd /home/node/.openclaw/workspace-reception && git add -A && git commit -m \\\"heartbeat: add DEMO_SETUP.md and demo-config.sample.json for fast prospect demos\\\" && git push'\", \"t",
+          "model": "gpt-5",
+          "isClaudeExec": false
+        },
+        {
+          "time": "2026-02-18T05:06:29.558Z",
+          "name": "edit",
+          "argsPreview": "{\"path\": \"/home/node/.openclaw/workspace-reception/LEARNINGS.md\", \"oldText\": \"# Learnings\\n\\n_Append-only. Never delete entries. Every mistake is a lesson._\\n\\n## System & Infrastructure\\n- Images and",
+          "model": "gpt-5",
+          "isClaudeExec": false
+        },
+        {
+          "time": "2026-02-18T05:06:31.222Z",
+          "name": "exec",
+          "argsPreview": "{\"command\": \"bash -lc 'cd /home/node/.openclaw/workspace-reception && git add -A && git commit -m \\\"heartbeat: log demo setup docs in LEARNINGS.md\\\" && git push'\", \"timeout\": 120000}",
+          "model": "gpt-5",
+          "isClaudeExec": false
+        },
+        {
+          "time": "2026-02-18T05:21:05.494Z",
+          "name": "write",
+          "argsPreview": "{\"path\": \"/home/node/.openclaw/workspace-reception/WEBSITE_INTAKE.md\", \"content\": \"# Website Intake \\u2014 Axiom Superintelligence\\n\\nShort, practical questionnaire for fast project kickoff. Send as a",
+          "model": "gpt-5",
+          "isClaudeExec": false
+        },
+        {
+          "time": "2026-02-18T05:21:19.778Z",
+          "name": "edit",
+          "argsPreview": "{\"path\": \"/home/node/.openclaw/workspace-reception/GOALS.md\", \"oldText\": \"# Mission\\n\\nBuild a functioning business under **Axiom Superintelligence** that generates real revenue by providing small bus",
+          "model": "gpt-5",
+          "isClaudeExec": false
+        },
+        {
+          "time": "2026-02-18T05:21:37.640Z",
+          "name": "edit",
+          "argsPreview": "{\"path\": \"/home/node/.openclaw/workspace-reception/LEARNINGS.md\", \"oldText\": \"# Learnings\\n\\n_Append-only. Never delete entries. Every mistake is a lesson._\\n\\n## System & Infrastructure\\n- Images and",
+          "model": "gpt-5",
+          "isClaudeExec": false
+        },
+        {
+          "time": "2026-02-18T05:21:39.361Z",
+          "name": "exec",
+          "argsPreview": "{\"command\": \"bash -lc 'cd /home/node/.openclaw/workspace-reception && git add -A && git commit -m \\\"heartbeat: add WEBSITE_INTAKE.md; mark Phase 3 intake flow complete; log learnings\\\" && git push'\", ",
           "model": "gpt-5",
           "isClaudeExec": false
         }
@@ -882,76 +961,175 @@
       "isClaudeExec": false,
       "agent": "reception",
       "session": "agent:reception:main"
+    },
+    {
+      "time": "2026-02-18T04:51:04.785Z",
+      "name": "exec",
+      "argsPreview": "{\"command\": \"bash -lc 'mkdir -p /home/node/website/demo-intake && cat > /home/node/website/demo-intake/index.html << \\\"EOF\\\"\\n<!DOCTYPE html>\\n<html lang=\\\"en\\\">\\n<head>\\n  <meta charset=\\\"UTF-8\\\" />\\",
+      "model": "gpt-5",
+      "isClaudeExec": false,
+      "agent": "reception",
+      "session": "agent:reception:main"
+    },
+    {
+      "time": "2026-02-18T04:51:06.589Z",
+      "name": "exec",
+      "argsPreview": "{\"command\": \"bash -lc 'cd /home/node/website && git add -A && git commit -m \\\"feat(demo-intake): add client demo intake form to generate demo-config.json\\\" && git push'\", \"timeout\": 120000}",
+      "model": "gpt-5",
+      "isClaudeExec": false,
+      "agent": "reception",
+      "session": "agent:reception:main"
+    },
+    {
+      "time": "2026-02-18T04:51:21.550Z",
+      "name": "edit",
+      "argsPreview": "{\"path\": \"/home/node/.openclaw/workspace-reception/LEARNINGS.md\", \"oldText\": \"# Learnings\\n\\n_Append-only. Never delete entries. Every mistake is a lesson._\\n\\n## System & Infrastructure\\n- Images and",
+      "model": "gpt-5",
+      "isClaudeExec": false,
+      "agent": "reception",
+      "session": "agent:reception:main"
+    },
+    {
+      "time": "2026-02-18T04:51:23.317Z",
+      "name": "exec",
+      "argsPreview": "{\"command\": \"bash -lc 'cd /home/node/.openclaw/workspace-reception && git add -A && git commit -m \\\"heartbeat: log demo-intake page in LEARNINGS.md\\\" && git push'\", \"timeout\": 120000}",
+      "model": "gpt-5",
+      "isClaudeExec": false,
+      "agent": "reception",
+      "session": "agent:reception:main"
+    },
+    {
+      "time": "2026-02-18T05:05:54.129Z",
+      "name": "write",
+      "argsPreview": "{\"path\": \"/home/node/.openclaw/workspace-reception/DEMO_SETUP.md\", \"content\": \"# Live Demo Setup \\u2014 Axiom WhatsApp AI\\n\\nQuick guide to spin up a prospect demo using a simple JSON config.\\n\\n## 1)",
+      "model": "gpt-5",
+      "isClaudeExec": false,
+      "agent": "reception",
+      "session": "agent:reception:main"
+    },
+    {
+      "time": "2026-02-18T05:05:59.867Z",
+      "name": "write",
+      "argsPreview": "{\"path\": \"/home/node/.openclaw/workspace-reception/demo-config.sample.json\", \"content\": \"{\\n  \\\"meta\\\": { \\\"version\\\": 1, \\\"created_at_utc\\\": \\\"2026-02-18T00:00:00Z\\\" },\\n  \\\"business\\\": {\\n    \\\"name",
+      "model": "gpt-5",
+      "isClaudeExec": false,
+      "agent": "reception",
+      "session": "agent:reception:main"
+    },
+    {
+      "time": "2026-02-18T05:06:04.899Z",
+      "name": "exec",
+      "argsPreview": "{\"command\": \"bash -lc 'cd /home/node/.openclaw/workspace-reception && git add -A && git commit -m \\\"heartbeat: add DEMO_SETUP.md and demo-config.sample.json for fast prospect demos\\\" && git push'\", \"t",
+      "model": "gpt-5",
+      "isClaudeExec": false,
+      "agent": "reception",
+      "session": "agent:reception:main"
+    },
+    {
+      "time": "2026-02-18T05:06:29.558Z",
+      "name": "edit",
+      "argsPreview": "{\"path\": \"/home/node/.openclaw/workspace-reception/LEARNINGS.md\", \"oldText\": \"# Learnings\\n\\n_Append-only. Never delete entries. Every mistake is a lesson._\\n\\n## System & Infrastructure\\n- Images and",
+      "model": "gpt-5",
+      "isClaudeExec": false,
+      "agent": "reception",
+      "session": "agent:reception:main"
+    },
+    {
+      "time": "2026-02-18T05:06:31.222Z",
+      "name": "exec",
+      "argsPreview": "{\"command\": \"bash -lc 'cd /home/node/.openclaw/workspace-reception && git add -A && git commit -m \\\"heartbeat: log demo setup docs in LEARNINGS.md\\\" && git push'\", \"timeout\": 120000}",
+      "model": "gpt-5",
+      "isClaudeExec": false,
+      "agent": "reception",
+      "session": "agent:reception:main"
+    },
+    {
+      "time": "2026-02-18T05:21:05.494Z",
+      "name": "write",
+      "argsPreview": "{\"path\": \"/home/node/.openclaw/workspace-reception/WEBSITE_INTAKE.md\", \"content\": \"# Website Intake \\u2014 Axiom Superintelligence\\n\\nShort, practical questionnaire for fast project kickoff. Send as a",
+      "model": "gpt-5",
+      "isClaudeExec": false,
+      "agent": "reception",
+      "session": "agent:reception:main"
+    },
+    {
+      "time": "2026-02-18T05:21:19.778Z",
+      "name": "edit",
+      "argsPreview": "{\"path\": \"/home/node/.openclaw/workspace-reception/GOALS.md\", \"oldText\": \"# Mission\\n\\nBuild a functioning business under **Axiom Superintelligence** that generates real revenue by providing small bus",
+      "model": "gpt-5",
+      "isClaudeExec": false,
+      "agent": "reception",
+      "session": "agent:reception:main"
+    },
+    {
+      "time": "2026-02-18T05:21:37.640Z",
+      "name": "edit",
+      "argsPreview": "{\"path\": \"/home/node/.openclaw/workspace-reception/LEARNINGS.md\", \"oldText\": \"# Learnings\\n\\n_Append-only. Never delete entries. Every mistake is a lesson._\\n\\n## System & Infrastructure\\n- Images and",
+      "model": "gpt-5",
+      "isClaudeExec": false,
+      "agent": "reception",
+      "session": "agent:reception:main"
+    },
+    {
+      "time": "2026-02-18T05:21:39.361Z",
+      "name": "exec",
+      "argsPreview": "{\"command\": \"bash -lc 'cd /home/node/.openclaw/workspace-reception && git add -A && git commit -m \\\"heartbeat: add WEBSITE_INTAKE.md; mark Phase 3 intake flow complete; log learnings\\\" && git push'\", ",
+      "model": "gpt-5",
+      "isClaudeExec": false,
+      "agent": "reception",
+      "session": "agent:reception:main"
     }
   ],
   "claudeCode": {
-    "sessions": [
-      {
-        "id": "3127c0f7-6b93-4398-b4a8-044ed8a44281",
-        "file": "3127c0f7-6b93-4398-b4a8-044ed8a44281.jsonl",
-        "model": "claude-sonnet-4-5-20250929",
-        "cwd": "/home/node/.openclaw/workspace-reception",
-        "startTime": "2026-02-17T23:57:01.579Z",
-        "endTime": "2026-02-17T23:57:51.524Z",
-        "inputTokens": 98631,
-        "outputTokens": 5,
-        "totalTokens": 98636,
-        "estimatedCost": 0.295968,
-        "messageCount": 8,
-        "toolCalls": [
-          {
-            "time": "2026-02-17T23:57:30.008Z",
-            "name": "Write",
-            "preview": "/home/node/.openclaw/workspace-reception/reddit_post_smallbusiness.md"
-          },
-          {
-            "time": "2026-02-17T23:57:39.032Z",
-            "name": "Write",
-            "preview": "/home/node/.openclaw/workspace-reception/reddit_post_smallbusiness.md"
-          }
-        ],
-        "messages": [
-          {
-            "time": "2026-02-17T23:57:01.754Z",
-            "role": "user",
-            "text": "Write a high-performing Reddit post for r/smallbusiness. Goal: generate interest and leads for Axiom Superintelligence by showcasing our custom AI WhatsApp support agents (voice + text, smart routing, 24/7, business-specific knowledge). Tone: conversational founder-style, helpful and transparent. Length: 450\u2013600 words. Include: (1) a quick hook, (2) one mini case-style example with concrete numbers (e.g., ~60% deflection, first-response time <10s), (3) what it takes to get started (inputs we nee"
-          },
-          {
-            "time": "2026-02-17T23:57:04.770Z",
-            "role": "assistant",
-            "text": "I'll write a high-performing Reddit post for r/smallbusiness focused on your AI WhatsApp support agents. Let me create something conversational, specific, and lead-generating."
-          },
-          {
-            "time": "2026-02-17T23:57:30.052Z",
-            "role": "tool_result",
-            "text": "ERROR: Claude requested permissions to write to /home/node/.openclaw/workspace-reception/reddit_post_smallbusiness.md, but you haven't granted it yet."
-          },
-          {
-            "time": "2026-02-17T23:57:32.020Z",
-            "role": "assistant",
-            "text": "I'll save the Reddit post to a file for you."
-          },
-          {
-            "time": "2026-02-17T23:57:39.046Z",
-            "role": "tool_result",
-            "text": "ERROR: Claude requested permissions to write to /home/node/.openclaw/workspace-reception/reddit_post_smallbusiness.md, but you haven't granted it yet."
-          },
-          {
-            "time": "2026-02-17T23:57:51.524Z",
-            "role": "assistant",
-            "text": "Here's your high-performing Reddit post for r/smallbusiness:\n\n---\n\n**Title:** We built AI WhatsApp agents that actually answer customer questions (voice + text, 24/7) \u2013 here's what it takes to set one up\n\n---\n\n**Body:**\n\nI run a small AI dev shop and we've been building custom WhatsApp support agents for businesses that are drowning in customer messages. Not chatbots that give canned responses \u2013 actual AI that knows your business, routes complex questions to humans, and handles the repetitive st"
-          }
-        ]
-      }
-    ],
+    "sessions": [],
     "totalTokens": {
-      "input": 98631,
-      "output": 5,
-      "total": 98636
+      "input": 0,
+      "output": 0,
+      "total": 0
     },
-    "totalCost": 0.295968
+    "totalCost": 0.0
   },
   "gitCommits": [
+    {
+      "repo": "workspace-reception",
+      "hash": "9cf16a79",
+      "fullHash": "9cf16a799c746cecb900f027d7a8e809666ea520",
+      "time": "2026-02-18T05:21:39+00:00",
+      "author": "ClawdBot",
+      "message": "heartbeat: add WEBSITE_INTAKE.md; mark Phase 3 intake flow complete; log learnings"
+    },
+    {
+      "repo": "workspace-reception",
+      "hash": "1ac1bfee",
+      "fullHash": "1ac1bfeede355b03f45a4da45053ce116d802d93",
+      "time": "2026-02-18T05:06:31+00:00",
+      "author": "ClawdBot",
+      "message": "heartbeat: log demo setup docs in LEARNINGS.md"
+    },
+    {
+      "repo": "workspace-reception",
+      "hash": "caf71d75",
+      "fullHash": "caf71d75e21f91bbbc3b4c1c915af11b1e2028b7",
+      "time": "2026-02-18T05:06:04+00:00",
+      "author": "ClawdBot",
+      "message": "heartbeat: add DEMO_SETUP.md and demo-config.sample.json for fast prospect demos"
+    },
+    {
+      "repo": "workspace-reception",
+      "hash": "1f10976b",
+      "fullHash": "1f10976beb938726664bfb3294a633e1a9397b65",
+      "time": "2026-02-18T04:51:23+00:00",
+      "author": "ClawdBot",
+      "message": "heartbeat: log demo-intake page in LEARNINGS.md"
+    },
+    {
+      "repo": "website",
+      "hash": "a1328063",
+      "fullHash": "a13280638d8081ab745bb49f15df77a17bf8821d",
+      "time": "2026-02-18T04:51:06+00:00",
+      "author": "ClawdBot",
+      "message": "feat(demo-intake): add client demo intake form to generate demo-config.json"
+    },
     {
       "repo": "workspace-reception",
       "hash": "dbf65a1f",
@@ -1075,295 +1253,295 @@
   ],
   "recentEvents": [
     {
-      "time": "2026-02-18T04:50:35.354Z",
+      "time": "2026-02-18T07:02:42.475Z",
       "level": "INFO",
-      "subsystem": "{\"module\":\"web-heartbeat\",\"runId\":\"f1d8153c-1d86-4a42-a75b-54bd49c079b1\"}",
+      "subsystem": "{\"module\":\"web-heartbeat\",\"runId\":\"3cecfd19-128d-4505-998b-9d1b97219542\"}",
       "message": "web gateway heartbeat",
       "category": "heartbeat"
     },
     {
-      "time": "2026-02-18T04:50:31.917Z",
+      "time": "2026-02-18T07:02:37.134Z",
       "level": "DEBUG",
       "subsystem": "{\"subsystem\":\"agent/embedded\"}",
-      "message": "embedded run agent start: runId=08160305-6696-4a60-8829-cad15efdf2fd",
+      "message": "embedded run agent start: runId=9dd7bad7-54ce-415d-8685-6eb842f9c300",
       "category": "info"
     },
     {
-      "time": "2026-02-18T04:50:31.912Z",
+      "time": "2026-02-18T07:02:37.118Z",
       "level": "DEBUG",
       "subsystem": "{\"subsystem\":\"agent/embedded\"}",
-      "message": "embedded run prompt start: runId=08160305-6696-4a60-8829-cad15efdf2fd sessionId=6ecb6b7d-d01e-4ed9-8e4e-58909efbbf31",
+      "message": "embedded run prompt start: runId=9dd7bad7-54ce-415d-8685-6eb842f9c300 sessionId=6ecb6b7d-d01e-4ed9-8e4e-58909efbbf31",
       "category": "info"
     },
     {
-      "time": "2026-02-18T04:50:31.911Z",
+      "time": "2026-02-18T07:02:37.114Z",
       "level": "DEBUG",
       "subsystem": "{\"subsystem\":\"diagnostic\"}",
       "message": "run registered: sessionId=6ecb6b7d-d01e-4ed9-8e4e-58909efbbf31 totalActive=1",
       "category": "info"
     },
     {
-      "time": "2026-02-18T04:50:31.869Z",
+      "time": "2026-02-18T07:02:37.072Z",
       "level": "DEBUG",
       "subsystem": "{\"subsystem\":\"agent/embedded\"}",
-      "message": "embedded run start: runId=08160305-6696-4a60-8829-cad15efdf2fd sessionId=6ecb6b7d-d01e-4ed9-8e4e-58909efbbf31 provider=openai model=gpt-5 thinking=low messageChannel=heartbeat",
+      "message": "embedded run start: runId=9dd7bad7-54ce-415d-8685-6eb842f9c300 sessionId=6ecb6b7d-d01e-4ed9-8e4e-58909efbbf31 provider=openai model=gpt-5 thinking=low messageChannel=heartbeat",
       "category": "heartbeat"
     },
     {
-      "time": "2026-02-18T04:50:31.478Z",
+      "time": "2026-02-18T07:02:36.753Z",
       "level": "DEBUG",
       "subsystem": "{\"subsystem\":\"diagnostic\"}",
-      "message": "lane dequeue: lane=main waitMs=2 queueSize=0",
+      "message": "lane dequeue: lane=main waitMs=5 queueSize=0",
       "category": "info"
     },
     {
-      "time": "2026-02-18T04:50:31.475Z",
+      "time": "2026-02-18T07:02:36.750Z",
       "level": "DEBUG",
       "subsystem": "{\"subsystem\":\"diagnostic\"}",
       "message": "lane enqueue: lane=main queueSize=1",
       "category": "info"
     },
     {
-      "time": "2026-02-18T04:50:31.473Z",
+      "time": "2026-02-18T07:02:36.744Z",
       "level": "DEBUG",
       "subsystem": "{\"subsystem\":\"diagnostic\"}",
       "message": "lane dequeue: lane=session:agent:reception:main waitMs=3 queueSize=0",
       "category": "info"
     },
     {
-      "time": "2026-02-18T04:50:31.470Z",
+      "time": "2026-02-18T07:02:36.741Z",
       "level": "DEBUG",
       "subsystem": "{\"subsystem\":\"diagnostic\"}",
       "message": "lane enqueue: lane=session:agent:reception:main queueSize=1",
       "category": "info"
     },
     {
-      "time": "2026-02-18T04:49:35.354Z",
+      "time": "2026-02-18T07:01:42.474Z",
       "level": "INFO",
-      "subsystem": "{\"module\":\"web-heartbeat\",\"runId\":\"f1d8153c-1d86-4a42-a75b-54bd49c079b1\"}",
+      "subsystem": "{\"module\":\"web-heartbeat\",\"runId\":\"3cecfd19-128d-4505-998b-9d1b97219542\"}",
       "message": "web gateway heartbeat",
       "category": "heartbeat"
     },
     {
-      "time": "2026-02-18T04:48:35.354Z",
+      "time": "2026-02-18T07:00:42.471Z",
       "level": "INFO",
-      "subsystem": "{\"module\":\"web-heartbeat\",\"runId\":\"f1d8153c-1d86-4a42-a75b-54bd49c079b1\"}",
+      "subsystem": "{\"module\":\"web-heartbeat\",\"runId\":\"3cecfd19-128d-4505-998b-9d1b97219542\"}",
       "message": "web gateway heartbeat",
       "category": "heartbeat"
     },
     {
-      "time": "2026-02-18T04:47:35.353Z",
+      "time": "2026-02-18T06:59:42.468Z",
       "level": "INFO",
-      "subsystem": "{\"module\":\"web-heartbeat\",\"runId\":\"f1d8153c-1d86-4a42-a75b-54bd49c079b1\"}",
+      "subsystem": "{\"module\":\"web-heartbeat\",\"runId\":\"3cecfd19-128d-4505-998b-9d1b97219542\"}",
       "message": "web gateway heartbeat",
       "category": "heartbeat"
     },
     {
-      "time": "2026-02-18T04:46:35.352Z",
+      "time": "2026-02-18T06:58:42.467Z",
       "level": "INFO",
-      "subsystem": "{\"module\":\"web-heartbeat\",\"runId\":\"f1d8153c-1d86-4a42-a75b-54bd49c079b1\"}",
+      "subsystem": "{\"module\":\"web-heartbeat\",\"runId\":\"3cecfd19-128d-4505-998b-9d1b97219542\"}",
       "message": "web gateway heartbeat",
       "category": "heartbeat"
     },
     {
-      "time": "2026-02-18T04:45:35.351Z",
+      "time": "2026-02-18T06:57:42.465Z",
       "level": "INFO",
-      "subsystem": "{\"module\":\"web-heartbeat\",\"runId\":\"f1d8153c-1d86-4a42-a75b-54bd49c079b1\"}",
+      "subsystem": "{\"module\":\"web-heartbeat\",\"runId\":\"3cecfd19-128d-4505-998b-9d1b97219542\"}",
       "message": "web gateway heartbeat",
       "category": "heartbeat"
     },
     {
-      "time": "2026-02-18T04:44:35.351Z",
+      "time": "2026-02-18T06:56:42.463Z",
       "level": "INFO",
-      "subsystem": "{\"module\":\"web-heartbeat\",\"runId\":\"f1d8153c-1d86-4a42-a75b-54bd49c079b1\"}",
+      "subsystem": "{\"module\":\"web-heartbeat\",\"runId\":\"3cecfd19-128d-4505-998b-9d1b97219542\"}",
       "message": "web gateway heartbeat",
       "category": "heartbeat"
     },
     {
-      "time": "2026-02-18T04:43:35.350Z",
+      "time": "2026-02-18T06:55:42.462Z",
       "level": "INFO",
-      "subsystem": "{\"module\":\"web-heartbeat\",\"runId\":\"f1d8153c-1d86-4a42-a75b-54bd49c079b1\"}",
+      "subsystem": "{\"module\":\"web-heartbeat\",\"runId\":\"3cecfd19-128d-4505-998b-9d1b97219542\"}",
       "message": "web gateway heartbeat",
       "category": "heartbeat"
     },
     {
-      "time": "2026-02-18T04:42:35.348Z",
+      "time": "2026-02-18T06:54:42.459Z",
       "level": "INFO",
-      "subsystem": "{\"module\":\"web-heartbeat\",\"runId\":\"f1d8153c-1d86-4a42-a75b-54bd49c079b1\"}",
+      "subsystem": "{\"module\":\"web-heartbeat\",\"runId\":\"3cecfd19-128d-4505-998b-9d1b97219542\"}",
       "message": "web gateway heartbeat",
       "category": "heartbeat"
     },
     {
-      "time": "2026-02-18T04:41:35.347Z",
+      "time": "2026-02-18T06:53:42.457Z",
       "level": "INFO",
-      "subsystem": "{\"module\":\"web-heartbeat\",\"runId\":\"f1d8153c-1d86-4a42-a75b-54bd49c079b1\"}",
+      "subsystem": "{\"module\":\"web-heartbeat\",\"runId\":\"3cecfd19-128d-4505-998b-9d1b97219542\"}",
       "message": "web gateway heartbeat",
       "category": "heartbeat"
     },
     {
-      "time": "2026-02-18T04:40:35.347Z",
+      "time": "2026-02-18T06:52:42.453Z",
       "level": "INFO",
-      "subsystem": "{\"module\":\"web-heartbeat\",\"runId\":\"f1d8153c-1d86-4a42-a75b-54bd49c079b1\"}",
+      "subsystem": "{\"module\":\"web-heartbeat\",\"runId\":\"3cecfd19-128d-4505-998b-9d1b97219542\"}",
       "message": "web gateway heartbeat",
       "category": "heartbeat"
     },
     {
-      "time": "2026-02-18T04:39:35.347Z",
+      "time": "2026-02-18T06:51:42.452Z",
       "level": "INFO",
-      "subsystem": "{\"module\":\"web-heartbeat\",\"runId\":\"f1d8153c-1d86-4a42-a75b-54bd49c079b1\"}",
+      "subsystem": "{\"module\":\"web-heartbeat\",\"runId\":\"3cecfd19-128d-4505-998b-9d1b97219542\"}",
       "message": "web gateway heartbeat",
       "category": "heartbeat"
     },
     {
-      "time": "2026-02-18T04:38:35.346Z",
+      "time": "2026-02-18T06:50:42.450Z",
       "level": "INFO",
-      "subsystem": "{\"module\":\"web-heartbeat\",\"runId\":\"f1d8153c-1d86-4a42-a75b-54bd49c079b1\"}",
+      "subsystem": "{\"module\":\"web-heartbeat\",\"runId\":\"3cecfd19-128d-4505-998b-9d1b97219542\"}",
       "message": "web gateway heartbeat",
       "category": "heartbeat"
     },
     {
-      "time": "2026-02-18T04:37:35.349Z",
+      "time": "2026-02-18T06:49:42.448Z",
       "level": "INFO",
-      "subsystem": "{\"module\":\"web-heartbeat\",\"runId\":\"f1d8153c-1d86-4a42-a75b-54bd49c079b1\"}",
+      "subsystem": "{\"module\":\"web-heartbeat\",\"runId\":\"3cecfd19-128d-4505-998b-9d1b97219542\"}",
       "message": "web gateway heartbeat",
       "category": "heartbeat"
     },
     {
-      "time": "2026-02-18T04:36:35.346Z",
+      "time": "2026-02-18T06:48:42.446Z",
       "level": "INFO",
-      "subsystem": "{\"module\":\"web-heartbeat\",\"runId\":\"f1d8153c-1d86-4a42-a75b-54bd49c079b1\"}",
+      "subsystem": "{\"module\":\"web-heartbeat\",\"runId\":\"3cecfd19-128d-4505-998b-9d1b97219542\"}",
       "message": "web gateway heartbeat",
       "category": "heartbeat"
     },
     {
-      "time": "2026-02-18T04:36:34.765Z",
+      "time": "2026-02-18T06:47:47.672Z",
       "level": "DEBUG",
       "subsystem": "{\"subsystem\":\"diagnostic\"}",
-      "message": "lane task done: lane=session:agent:reception:main durationMs=63131 active=0 queued=0",
+      "message": "lane task done: lane=session:agent:reception:main durationMs=9882 active=0 queued=0",
       "category": "info"
     },
     {
-      "time": "2026-02-18T04:36:34.764Z",
+      "time": "2026-02-18T06:47:47.669Z",
       "level": "DEBUG",
       "subsystem": "{\"subsystem\":\"diagnostic\"}",
-      "message": "lane task done: lane=main durationMs=63127 active=0 queued=0",
+      "message": "lane task done: lane=main durationMs=9873 active=0 queued=0",
       "category": "info"
     },
     {
-      "time": "2026-02-18T04:36:34.762Z",
+      "time": "2026-02-18T06:47:47.666Z",
       "level": "DEBUG",
       "subsystem": "{\"subsystem\":\"agent/embedded\"}",
-      "message": "embedded run done: runId=2a67a5bb-56bc-4138-9ac4-aebb05568bfe sessionId=6ecb6b7d-d01e-4ed9-8e4e-58909efbbf31 durationMs=63126 aborted=false",
+      "message": "embedded run done: runId=d4797cbc-b132-4b3c-bba1-aefef1a39966 sessionId=6ecb6b7d-d01e-4ed9-8e4e-58909efbbf31 durationMs=9868 aborted=false",
       "category": "info"
     },
     {
-      "time": "2026-02-18T04:36:34.759Z",
+      "time": "2026-02-18T06:47:47.660Z",
       "level": "DEBUG",
       "subsystem": "{\"subsystem\":\"diagnostic\"}",
       "message": "run cleared: sessionId=6ecb6b7d-d01e-4ed9-8e4e-58909efbbf31 totalActive=0",
       "category": "info"
     },
     {
-      "time": "2026-02-18T04:36:34.756Z",
+      "time": "2026-02-18T06:47:47.656Z",
       "level": "DEBUG",
       "subsystem": "{\"subsystem\":\"agent/embedded\"}",
-      "message": "embedded run prompt end: runId=2a67a5bb-56bc-4138-9ac4-aebb05568bfe sessionId=6ecb6b7d-d01e-4ed9-8e4e-58909efbbf31 durationMs=62663",
+      "message": "embedded run prompt end: runId=d4797cbc-b132-4b3c-bba1-aefef1a39966 sessionId=6ecb6b7d-d01e-4ed9-8e4e-58909efbbf31 durationMs=9529",
       "category": "info"
     },
     {
-      "time": "2026-02-18T04:36:34.744Z",
+      "time": "2026-02-18T06:47:47.643Z",
       "level": "DEBUG",
       "subsystem": "{\"subsystem\":\"agent/embedded\"}",
-      "message": "embedded run agent end: runId=2a67a5bb-56bc-4138-9ac4-aebb05568bfe isError=false",
+      "message": "embedded run agent end: runId=d4797cbc-b132-4b3c-bba1-aefef1a39966 isError=false",
       "category": "info"
     },
     {
-      "time": "2026-02-18T04:36:33.207Z",
-      "level": "DEBUG",
-      "subsystem": "{\"subsystem\":\"agent/embedded\"}",
-      "message": "embedded run tool end: runId=2a67a5bb-56bc-4138-9ac4-aebb05568bfe tool=exec toolCallId=call_QkBZawIzjl7b1bbXIj2ltLeD|fc_06e2c962ea3c819100699541cfa344819384126229de92a347",
-      "category": "info"
+      "time": "2026-02-18T06:47:42.444Z",
+      "level": "INFO",
+      "subsystem": "{\"module\":\"web-heartbeat\",\"runId\":\"3cecfd19-128d-4505-998b-9d1b97219542\"}",
+      "message": "web gateway heartbeat",
+      "category": "heartbeat"
     }
   ],
   "heartbeats": [
     {
-      "time": "2026-02-18T04:41:35.347Z",
-      "uptimeMs": 8340716,
+      "time": "2026-02-18T06:53:42.457Z",
+      "uptimeMs": 1263683,
       "messagesHandled": 0,
-      "reconnectAttempts": 1,
+      "reconnectAttempts": 0,
       "lastMessageAt": null
     },
     {
-      "time": "2026-02-18T04:42:35.348Z",
-      "uptimeMs": 8400717,
+      "time": "2026-02-18T06:54:42.459Z",
+      "uptimeMs": 1323685,
       "messagesHandled": 0,
-      "reconnectAttempts": 1,
+      "reconnectAttempts": 0,
       "lastMessageAt": null
     },
     {
-      "time": "2026-02-18T04:43:35.350Z",
-      "uptimeMs": 8460718,
+      "time": "2026-02-18T06:55:42.462Z",
+      "uptimeMs": 1383687,
       "messagesHandled": 0,
-      "reconnectAttempts": 1,
+      "reconnectAttempts": 0,
       "lastMessageAt": null
     },
     {
-      "time": "2026-02-18T04:44:35.351Z",
-      "uptimeMs": 8520719,
+      "time": "2026-02-18T06:56:42.463Z",
+      "uptimeMs": 1443689,
       "messagesHandled": 0,
-      "reconnectAttempts": 1,
+      "reconnectAttempts": 0,
       "lastMessageAt": null
     },
     {
-      "time": "2026-02-18T04:45:35.351Z",
-      "uptimeMs": 8580719,
+      "time": "2026-02-18T06:57:42.465Z",
+      "uptimeMs": 1503691,
       "messagesHandled": 0,
-      "reconnectAttempts": 1,
+      "reconnectAttempts": 0,
       "lastMessageAt": null
     },
     {
-      "time": "2026-02-18T04:46:35.352Z",
-      "uptimeMs": 8640720,
+      "time": "2026-02-18T06:58:42.467Z",
+      "uptimeMs": 1563693,
       "messagesHandled": 0,
-      "reconnectAttempts": 1,
+      "reconnectAttempts": 0,
       "lastMessageAt": null
     },
     {
-      "time": "2026-02-18T04:47:35.353Z",
-      "uptimeMs": 8700721,
+      "time": "2026-02-18T06:59:42.468Z",
+      "uptimeMs": 1623694,
       "messagesHandled": 0,
-      "reconnectAttempts": 1,
+      "reconnectAttempts": 0,
       "lastMessageAt": null
     },
     {
-      "time": "2026-02-18T04:48:35.354Z",
-      "uptimeMs": 8760722,
+      "time": "2026-02-18T07:00:42.471Z",
+      "uptimeMs": 1683697,
       "messagesHandled": 0,
-      "reconnectAttempts": 1,
+      "reconnectAttempts": 0,
       "lastMessageAt": null
     },
     {
-      "time": "2026-02-18T04:49:35.354Z",
-      "uptimeMs": 8820723,
+      "time": "2026-02-18T07:01:42.474Z",
+      "uptimeMs": 1743700,
       "messagesHandled": 0,
-      "reconnectAttempts": 1,
+      "reconnectAttempts": 0,
       "lastMessageAt": null
     },
     {
-      "time": "2026-02-18T04:50:35.354Z",
-      "uptimeMs": 8880722,
+      "time": "2026-02-18T07:02:42.475Z",
+      "uptimeMs": 1803701,
       "messagesHandled": 0,
-      "reconnectAttempts": 1,
+      "reconnectAttempts": 0,
       "lastMessageAt": null
     }
   ],
   "aiSummary": {
     "lastHour": [
-      "Run agent started at 04:35 with session ID 6ecb6b7d-d01e-4ed9-8e4e-58909efbbf31.",
-      "One new activity in the session: session registered with total active sessions now at 1.",
-      "Lane dequeue and enqueue events occurred in seconds: main lane wait=1ms, session lane wait=2ms."
+      "WhatsApp inbound messages detected at 06:32.",
+      "Delivery recovery completed with no failures or retries.",
+      "Provider started for phone number +16503843115 at 06:32."
     ],
-    "last24h": "Over the past 24 hours, there have been multiple commits including heartbeat updates, utility additions, and site scaffolding, with activities on both the workspace and website. A new embedded run was initiated at 04:35 today, corresponding with session registration and lane queue activities, while the Claude Code session completed 8 messages using 98,636 tokens.",
-    "generatedAt": "2026-02-18T04:35:40.100995+00:00"
+    "last24h": "Over the past 24 hours, recent Git commits include updates to demo forms, objection handling, and proposal generation. Activity included message processing, recovery attempts, and provider initialization, with continuous WhatsApp monitoring.",
+    "generatedAt": "2026-02-18T06:36:41.936738+00:00"
   }
 }

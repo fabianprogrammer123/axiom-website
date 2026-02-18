@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Axiom Superintelligence — Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <style>
+    :root { --bg:#0b0f1a; --card:#121828; --text:#e5e7eb; --muted:#94a3b8; --border:#1f2937; --accent:#7c3aed; --a2:#22d3ee; }
+    *{box-sizing:border-box}
+    body{margin:0;font-family:Inter,system-ui,Segoe UI,Roboto,Arial,sans-serif;background:radial-gradient(900px 500px at 0% -10%,rgba(124,58,237,.25),transparent 60%),radial-gradient(800px 400px at 110% 0%,rgba(34,211,238,.18),transparent 60%),var(--bg);color:var(--text)}
+    .wrap{max-width:1100px;margin:0 auto;padding:32px 16px}
+    header{display:flex;align-items:center;justify-content:space-between;margin-bottom:16px}
+    .logo{font-weight:800;font-size:20px;letter-spacing:.3px}
+    nav a{color:var(--text);text-decoration:none;margin-left:16px;border:1px solid var(--border);padding:8px 12px;border-radius:10px}
+    .hero{background:linear-gradient(180deg,rgba(18,24,40,.7),rgba(18,24,40,.92));border:1px solid var(--border);border-radius:16px;padding:28px;backdrop-filter:blur(6px)}
+    h1{margin:0 0 8px;font-size:28px}
+    p.lead{margin:0;color:var(--muted)}
+    .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:20px}
+    .card{background:var(--card);border:1px solid var(--border);border-radius:14px;padding:16px}
+    .tag{display:inline-block;font-size:12px;color:#111;background:linear-gradient(90deg,var(--accent),var(--a2));padding:4px 8px;border-radius:999px;font-weight:700}
+    footer{color:var(--muted);font-size:12px;margin-top:20px;text-align:center}
+    @media(max-width:900px){.grid{grid-template-columns:1fr}}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="logo">Axiom Superintelligence</div>
+      <nav>
+        <a href="/">Home</a>
+        <a href="/demo-intake/">Demo Intake</a>
+        <a href="https://wa.me/15551234567" target="_blank" rel="noopener">WhatsApp</a>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <h1>Websites and WhatsApp AI that convert</h1>
+      <p class="lead">A small portfolio of our work and in‑progress demos. Mobile‑first, fast, and built to drive bookings and leads.</p>
+
+      <div class="grid">
+        <div class="card">
+          <div class="tag">Demo</div>
+          <h3>PawPerfect — Grooming</h3>
+          <p>Clean, bright service site with WhatsApp CTA and embedded booking.</p>
+          <p><a href="/pawperfect/" target="_blank">Preview (coming soon)</a></p>
+        </div>
+        <div class="card">
+          <div class="tag">Demo</div>
+          <h3>Acme Dental — Clinic</h3>
+          <p>Clinic layout with services, insurance FAQs, and after‑hours assistant.</p>
+          <p><a href="/clinic-demo/" target="_blank">Preview (coming soon)</a></p>
+        </div>
+        <div class="card">
+          <div class="tag">Live Tool</div>
+          <h3>Demo Config Generator</h3>
+          <p>Generate a ready‑to‑load JSON for your WhatsApp AI demo.</p>
+          <p><a href="/demo-intake/" target="_blank">Open tool</a></p>
+        </div>
+      </div>
+
+      <footer>Want your brand here? Message us on WhatsApp — we can spin up a demo in a day.</footer>
+    </section>
+  </div>
+</body>
+</html>
