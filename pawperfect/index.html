@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>PawPerfect — Dog Grooming</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/style.css" onerror="this.href='style.css'">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="container header">
+    <div class="brand"><span class="logo">⚡</span> PawPerfect — Dog Grooming</div>
+    <nav>
+      <a href="#features">Features</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container">
+      <h1>PawPerfect — Dog Grooming</h1>
+      <p class="tagline">Fresh cuts, happy pups. Book grooming via WhatsApp today.</p>
+      <div class="cta">
+        <a class="btn primary" href="#contact">Get Started</a>
+        <a class="btn" href="#features">Learn More</a>
+      </div>
+    </section>
+
+    <section id="features" class="features container">
+      <div class="card">
+        <h3>Fast</h3>
+        <p>Optimized assets and clean markup for snappy load times.</p>
+      </div>
+      <div class="card">
+        <h3>Responsive</h3>
+        <p>Looks great on phones, tablets, and desktops out of the box.</p>
+      </div>
+      <div class="card">
+        <h3>Modern</h3>
+        <p>Fresh typography, accessible colors, and smooth interactions.</p>
+      </div>
+    </section>
+
+    <section id="about" class="about container">
+      <h2>About</h2>
+      <p>Built by Axiom Superintelligence. We create custom AI agents and websites for small businesses.</p>
+    </section>
+
+    <section id="contact" class="contact container">
+      <h2>Contact</h2>
+      <p>Interested? Message us on WhatsApp and we’ll set you up.</p>
+      <a class="btn primary" href="https://wa.me/">Chat on WhatsApp</a>
+    </section>
+  </main>
+
+  <footer class="container footer">
+    <span>© <span id="year"></span> PawPerfect — Dog Grooming</span>
+    <span>Built with ⚡ by Axiom</span>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
