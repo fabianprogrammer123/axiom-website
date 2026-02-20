@@ -58,10 +58,18 @@ html, body { margin:0; padding:0; font-family: Inter, system-ui, -apple-system, 
 .footer { padding: 28px 0 40px; border-top: 1px solid var(--line); color: var(--muted); }
 .footer .small { font-size: 12px; }
 
+.testimonials { padding: 56px 0; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); background: linear-gradient(180deg, rgba(16,22,29,0.6), rgba(16,22,29,0.9)); }
+.testimonials h2 { margin: 0 0 18px; }
+.t-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+.t-card { margin: 0; background: var(--panel); border: 1px solid var(--line); border-radius: 14px; padding: 18px; }
+.t-card blockquote { margin: 0 0 10px; color: var(--text); font-size: 16px; line-height: 1.5; }
+.t-card figcaption { color: var(--muted); font-size: 13px; }
+
 @media (max-width: 900px) {
   .hero-grid { grid-template-columns: 1fr; }
   .hero h1 { font-size: 34px; }
   .grid-3 { grid-template-columns: 1fr; }
   .two-col { grid-template-columns: 1fr; }
   .inline-form { grid-template-columns: 1fr; }
+  .t-grid { grid-template-columns: 1fr; }
 }
