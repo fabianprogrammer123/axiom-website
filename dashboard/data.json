@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-02-19T05:17:39.593479+00:00",
+  "generatedAt": "2026-02-20T04:03:12.167775+00:00",
   "collectorVersion": "3.0.0",
   "status": {
-    "model": "openai/gpt-5",
-    "gatewayStartedAt": "2026-02-18T06:32:36.532Z",
-    "lastHeartbeat": "2026-02-19T05:17:24.808Z",
-    "uptimeMs": 17161495,
+    "model": "unknown",
+    "gatewayStartedAt": null,
+    "lastHeartbeat": null,
+    "uptimeMs": null,
     "messagesHandled": 0,
-    "whatsapp": "connected",
+    "whatsapp": "unknown",
     "agents": [
       "main",
       "reception"
@@ -15,15 +15,15 @@
     "activeSessions": 3
   },
   "tokens": {
-    "totalInput": 492900,
-    "totalOutput": 19787,
-    "total": 512687,
-    "estimatedCostUsd": 1.0388,
-    "inputOutputRatio": 24.9,
+    "totalInput": 431176,
+    "totalOutput": 16174,
+    "total": 447350,
+    "estimatedCostUsd": 0.8805,
+    "inputOutputRatio": 26.7,
     "openai": {
-      "input": 492900,
-      "output": 19787,
-      "cost": 1.0388
+      "input": 431176,
+      "output": 16174,
+      "cost": 0.8805
     },
     "anthropic": {
       "input": 0,
@@ -32,25 +32,24 @@
     }
   },
   "byModel": {
-    "gpt-5": {
-      "input": 336151,
-      "output": 16793,
-      "cost": 0.653831,
-      "sessions": 2,
-      "isCurrent": true
-    },
     "gpt-4.1": {
       "input": 156749,
       "output": 2994,
       "cost": 0.384938,
       "sessions": 1
+    },
+    "gpt-5": {
+      "input": 274427,
+      "output": 13180,
+      "cost": 0.495554,
+      "sessions": 2
     }
   },
   "byProvider": {
     "openai": {
-      "input": 492900,
-      "output": 19787,
-      "cost": 1.038769,
+      "input": 431176,
+      "output": 16174,
+      "cost": 0.880492,
       "sessions": 3
     }
   },
@@ -221,237 +220,55 @@
       ]
     },
     {
-      "id": "b6cf711a-4061-4847-b2fd-c90bc3313590",
+      "id": "779c4389-df4c-49ab-8139-456fdb0ace7b",
       "agent": "reception",
       "sessionKey": "agent:reception:main",
       "model": "gpt-5",
       "provider": "openai",
       "channel": "heartbeat",
       "contact": "+491712983187",
-      "inputTokens": 73063,
-      "outputTokens": 4310,
-      "totalTokens": 77373,
-      "estimatedCost": 0.180813,
-      "updatedAt": 1771478257144,
+      "inputTokens": 11339,
+      "outputTokens": 697,
+      "totalTokens": 12036,
+      "estimatedCost": 0.022536,
+      "updatedAt": 1771560157939,
       "messages": [
         {
-          "time": "2026-02-19T04:47:46.784Z",
-          "role": "assistant",
-          "text": "HEARTBEAT_OK",
-          "model": "gpt-5",
-          "tokens": 18490
-        },
-        {
-          "time": "2026-02-19T05:02:37.511Z",
+          "time": "2026-02-20T04:02:38.235Z",
           "role": "user",
           "text": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention,",
           "model": "",
           "tokens": 0
         },
         {
-          "time": "2026-02-19T05:02:41.047Z",
+          "time": "2026-02-20T04:02:54.381Z",
           "role": "toolResult",
-          "text": "# Heartbeat Protocol\n\nEvery 30 minutes you wake up. Use this time to make progress on the mission.\n\n## On Each Heartbeat\n\n1. **Read GOALS.md** \u2014 what ",
+          "text": "# Mission\n\nBuild a functioning business under **Axiom Superintelligence** that generates real revenue by providing small businesses:\n1. AI-powered cus",
           "model": "",
           "tokens": 0
         },
         {
-          "time": "2026-02-19T05:02:47.483Z",
+          "time": "2026-02-20T04:03:00.429Z",
           "role": "toolResult",
-          "text": "total 24\ndrwxr-xr-x 2 root root 4096 Feb 18 00:14 .\ndrwxr-xr-x 5 node node 4096 Feb 18 05:21 ..\n-rwxr-xr-x 1 root root 4559 Feb 18 00:14 proposal_gene",
-          "model": "",
-          "tokens": 0
-        },
-        {
-          "time": "2026-02-19T05:02:53.118Z",
-          "role": "toolResult",
-          "text": "Scaffolded site at /home/node/website/pawperfect\ntotal 16\ndrwxr-xr-x 2 root root 4096 Feb 19 05:02 .\ndrwxr-xr-x 9 node node 4096 Feb 19 05:02 ..\n-rw-r",
-          "model": "",
-          "tokens": 0
-        },
-        {
-          "time": "2026-02-19T05:02:55.407Z",
-          "role": "toolResult",
-          "text": "[main 703e531] Add demo site: PawPerfect grooming scaffold under /pawperfect/\n 4 files changed, 337 insertions(+), 449 deletions(-)\n create mode 10064",
-          "model": "",
-          "tokens": 0
-        },
-        {
-          "time": "2026-02-19T05:02:58.168Z",
-          "role": "toolResult",
-          "text": "Successfully replaced text in /home/node/.openclaw/workspace-reception/LEARNINGS.md.",
-          "model": "",
-          "tokens": 0
-        },
-        {
-          "time": "2026-02-19T05:03:00.564Z",
-          "role": "toolResult",
-          "text": "[main 8314eee] Heartbeat: scaffold first demo site /pawperfect/ and log learning\n 1 file changed, 1 insertion(+)\nTo https://github.com/fabianprogramme",
-          "model": "",
-          "tokens": 0
-        },
-        {
-          "time": "2026-02-19T05:03:02.676Z",
-          "role": "assistant",
-          "text": "HEARTBEAT_OK",
-          "model": "gpt-5",
-          "tokens": 121
-        },
-        {
-          "time": "2026-02-19T05:17:37.581Z",
-          "role": "user",
-          "text": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention,",
+          "text": "# Pricing \u2014 Axiom Superintelligence\n\nTransparent, simple plans for small businesses. All plans include:\n- Custom WhatsApp AI agent (text + voice notes",
           "model": "",
           "tokens": 0
         }
       ],
-      "messageCount": 53,
+      "messageCount": 5,
       "errors": [],
       "toolCalls": [
         {
-          "time": "2026-02-19T04:02:47.659Z",
+          "time": "2026-02-20T04:02:54.363Z",
           "name": "read",
           "argsPreview": "{\"path\": \"/home/node/.openclaw/workspace-reception/GOALS.md\"}",
           "model": "gpt-5",
           "isClaudeExec": false
         },
         {
-          "time": "2026-02-19T04:02:55.072Z",
-          "name": "exec",
-          "argsPreview": "{\"command\": \"ls -la /home/node/website && head -n 50 /home/node/website/index.html || true\"}",
-          "model": "gpt-5",
-          "isClaudeExec": false
-        },
-        {
-          "time": "2026-02-19T04:02:56.849Z",
-          "name": "exec",
-          "argsPreview": "{\"command\": \"sed -n '51,180p' /home/node/website/index.html\"}",
-          "model": "gpt-5",
-          "isClaudeExec": false
-        },
-        {
-          "time": "2026-02-19T04:02:59.003Z",
-          "name": "exec",
-          "argsPreview": "{\"command\": \"ls -la /home/node/website/axiom && head -n 40 /home/node/website/axiom/index.html\"}",
-          "model": "gpt-5",
-          "isClaudeExec": false
-        },
-        {
-          "time": "2026-02-19T04:03:01.560Z",
-          "name": "exec",
-          "argsPreview": "{\"command\": \"sed -n '41,160p' /home/node/website/axiom/index.html\"}",
-          "model": "gpt-5",
-          "isClaudeExec": false
-        },
-        {
-          "time": "2026-02-19T04:03:06.411Z",
+          "time": "2026-02-20T04:03:00.416Z",
           "name": "read",
-          "argsPreview": "{\"path\": \"/home/node/.openclaw/workspace-reception/LEARNINGS.md\"}",
-          "model": "gpt-5",
-          "isClaudeExec": false
-        },
-        {
-          "time": "2026-02-19T04:03:19.435Z",
-          "name": "edit",
-          "argsPreview": "{\"path\": \"/home/node/.openclaw/workspace-reception/GOALS.md\", \"oldText\": \"- [ ] Build a sample portfolio site for Axiom Superintelligence itself\", \"newText\": \"- [x] Build a sample portfolio site for A",
-          "model": "gpt-5",
-          "isClaudeExec": false
-        },
-        {
-          "time": "2026-02-19T04:03:24.731Z",
-          "name": "exec",
-          "argsPreview": "{\"command\": \"cd /home/node/.openclaw/workspace-reception && git add -A && git commit -m \\\"Check off Phase 3: portfolio site live at /axiom/; housekeeping per heartbeat\\\" && git push\", \"timeout\": 120}",
-          "model": "gpt-5",
-          "isClaudeExec": false
-        },
-        {
-          "time": "2026-02-19T04:03:29.114Z",
-          "name": "edit",
-          "argsPreview": "{\"path\": \"/home/node/.openclaw/workspace-reception/LEARNINGS.md\", \"oldText\": \"### 2026-02-18 (UTC)\\n- Linked homepage to /demo-intake and /axiom to surface demo + portfolio from main CTA area.\\n\", \"ne",
-          "model": "gpt-5",
-          "isClaudeExec": false
-        },
-        {
-          "time": "2026-02-19T04:03:31.168Z",
-          "name": "exec",
-          "argsPreview": "{\"command\": \"cd /home/node/.openclaw/workspace-reception && git add -A && git commit -m \\\"Log learning: verified /axiom/ live; updated GOALS.md checkbox\\\" && git push\", \"timeout\": 120}",
-          "model": "gpt-5",
-          "isClaudeExec": false
-        },
-        {
-          "time": "2026-02-19T04:17:51.013Z",
-          "name": "read",
-          "argsPreview": "{\"path\": \"/home/node/.openclaw/workspace-reception/GOALS.md\"}",
-          "model": "gpt-5",
-          "isClaudeExec": false
-        },
-        {
-          "time": "2026-02-19T04:17:54.687Z",
-          "name": "edit",
-          "argsPreview": "{\"path\": \"/home/node/.openclaw/workspace-reception/GOALS.md\", \"oldText\": \"- [ ] Figure out hosting/deployment \\u2014 find a way to deploy sites (GitHub Pages, Vercel, Netlify, or simple hosting)\", \"ne",
-          "model": "gpt-5",
-          "isClaudeExec": false
-        },
-        {
-          "time": "2026-02-19T04:17:56.938Z",
-          "name": "read",
-          "argsPreview": "{\"path\": \"/home/node/.openclaw/workspace-reception/LEARNINGS.md\"}",
-          "model": "gpt-5",
-          "isClaudeExec": false
-        },
-        {
-          "time": "2026-02-19T04:17:59.162Z",
-          "name": "edit",
-          "argsPreview": "{\"path\": \"/home/node/.openclaw/workspace-reception/LEARNINGS.md\", \"oldText\": \"### 2026-02-19 (UTC)\\n- Verified portfolio page at /axiom/ is live; checked off corresponding GOALS item.\\n\", \"newText\": \"",
-          "model": "gpt-5",
-          "isClaudeExec": false
-        },
-        {
-          "time": "2026-02-19T04:18:00.938Z",
-          "name": "exec",
-          "argsPreview": "{\"command\": \"cd /home/node/.openclaw/workspace-reception && git add -A && git commit -m \\\"Phase 3: mark hosting/deployment as solved (nginx live server); log learning\\\" && git push\", \"timeout\": 120}",
-          "model": "gpt-5",
-          "isClaudeExec": false
-        },
-        {
-          "time": "2026-02-19T05:02:41.035Z",
-          "name": "read",
-          "argsPreview": "{\"path\": \"/home/node/.openclaw/workspace-reception/HEARTBEAT.md\"}",
-          "model": "gpt-5",
-          "isClaudeExec": false
-        },
-        {
-          "time": "2026-02-19T05:02:47.450Z",
-          "name": "exec",
-          "argsPreview": "{\"command\": \"ls -la /home/node/.openclaw/workspace-reception/scripts && sed -n '1,200p' /home/node/.openclaw/workspace-reception/scripts/scaffold_site.sh\"}",
-          "model": "gpt-5",
-          "isClaudeExec": false
-        },
-        {
-          "time": "2026-02-19T05:02:53.066Z",
-          "name": "exec",
-          "argsPreview": "{\"command\": \"bash /home/node/.openclaw/workspace-reception/scripts/scaffold_site.sh pawperfect \\\"PawPerfect \\u2014 Dog Grooming\\\" \\\"Fresh cuts, happy pups. Book grooming via WhatsApp today.\\\" && ls -l",
-          "model": "gpt-5",
-          "isClaudeExec": false
-        },
-        {
-          "time": "2026-02-19T05:02:54.586Z",
-          "name": "exec",
-          "argsPreview": "{\"command\": \"cd /home/node/website && git add -A && git commit -m \\\"Add demo site: PawPerfect grooming scaffold under /pawperfect/\\\" && git push\", \"timeout\": 120}",
-          "model": "gpt-5",
-          "isClaudeExec": false
-        },
-        {
-          "time": "2026-02-19T05:02:58.152Z",
-          "name": "edit",
-          "argsPreview": "{\"path\": \"/home/node/.openclaw/workspace-reception/LEARNINGS.md\", \"oldText\": \"### 2026-02-19 (UTC)\\n- Verified portfolio page at /axiom/ is live; checked off corresponding GOALS item.\\n- Marked hostin",
-          "model": "gpt-5",
-          "isClaudeExec": false
-        },
-        {
-          "time": "2026-02-19T05:02:59.894Z",
-          "name": "exec",
-          "argsPreview": "{\"command\": \"cd /home/node/.openclaw/workspace-reception && git add -A && git commit -m \\\"Heartbeat: scaffold first demo site /pawperfect/ and log learning\\\" && git push\", \"timeout\": 120}",
+          "argsPreview": "{\"path\": \"/home/node/.openclaw/workspace-reception/PRICING.md\"}",
           "model": "gpt-5",
           "isClaudeExec": false
         }
@@ -811,7 +628,7 @@
       "session": "agent:reception:whatsapp:direct:+491712983187"
     },
     {
-      "time": "2026-02-19T04:02:47.659Z",
+      "time": "2026-02-20T04:02:54.363Z",
       "name": "read",
       "argsPreview": "{\"path\": \"/home/node/.openclaw/workspace-reception/GOALS.md\"}",
       "model": "gpt-5",
@@ -820,180 +637,9 @@
       "session": "agent:reception:main"
     },
     {
-      "time": "2026-02-19T04:02:55.072Z",
-      "name": "exec",
-      "argsPreview": "{\"command\": \"ls -la /home/node/website && head -n 50 /home/node/website/index.html || true\"}",
-      "model": "gpt-5",
-      "isClaudeExec": false,
-      "agent": "reception",
-      "session": "agent:reception:main"
-    },
-    {
-      "time": "2026-02-19T04:02:56.849Z",
-      "name": "exec",
-      "argsPreview": "{\"command\": \"sed -n '51,180p' /home/node/website/index.html\"}",
-      "model": "gpt-5",
-      "isClaudeExec": false,
-      "agent": "reception",
-      "session": "agent:reception:main"
-    },
-    {
-      "time": "2026-02-19T04:02:59.003Z",
-      "name": "exec",
-      "argsPreview": "{\"command\": \"ls -la /home/node/website/axiom && head -n 40 /home/node/website/axiom/index.html\"}",
-      "model": "gpt-5",
-      "isClaudeExec": false,
-      "agent": "reception",
-      "session": "agent:reception:main"
-    },
-    {
-      "time": "2026-02-19T04:03:01.560Z",
-      "name": "exec",
-      "argsPreview": "{\"command\": \"sed -n '41,160p' /home/node/website/axiom/index.html\"}",
-      "model": "gpt-5",
-      "isClaudeExec": false,
-      "agent": "reception",
-      "session": "agent:reception:main"
-    },
-    {
-      "time": "2026-02-19T04:03:06.411Z",
+      "time": "2026-02-20T04:03:00.416Z",
       "name": "read",
-      "argsPreview": "{\"path\": \"/home/node/.openclaw/workspace-reception/LEARNINGS.md\"}",
-      "model": "gpt-5",
-      "isClaudeExec": false,
-      "agent": "reception",
-      "session": "agent:reception:main"
-    },
-    {
-      "time": "2026-02-19T04:03:19.435Z",
-      "name": "edit",
-      "argsPreview": "{\"path\": \"/home/node/.openclaw/workspace-reception/GOALS.md\", \"oldText\": \"- [ ] Build a sample portfolio site for Axiom Superintelligence itself\", \"newText\": \"- [x] Build a sample portfolio site for A",
-      "model": "gpt-5",
-      "isClaudeExec": false,
-      "agent": "reception",
-      "session": "agent:reception:main"
-    },
-    {
-      "time": "2026-02-19T04:03:24.731Z",
-      "name": "exec",
-      "argsPreview": "{\"command\": \"cd /home/node/.openclaw/workspace-reception && git add -A && git commit -m \\\"Check off Phase 3: portfolio site live at /axiom/; housekeeping per heartbeat\\\" && git push\", \"timeout\": 120}",
-      "model": "gpt-5",
-      "isClaudeExec": false,
-      "agent": "reception",
-      "session": "agent:reception:main"
-    },
-    {
-      "time": "2026-02-19T04:03:29.114Z",
-      "name": "edit",
-      "argsPreview": "{\"path\": \"/home/node/.openclaw/workspace-reception/LEARNINGS.md\", \"oldText\": \"### 2026-02-18 (UTC)\\n- Linked homepage to /demo-intake and /axiom to surface demo + portfolio from main CTA area.\\n\", \"ne",
-      "model": "gpt-5",
-      "isClaudeExec": false,
-      "agent": "reception",
-      "session": "agent:reception:main"
-    },
-    {
-      "time": "2026-02-19T04:03:31.168Z",
-      "name": "exec",
-      "argsPreview": "{\"command\": \"cd /home/node/.openclaw/workspace-reception && git add -A && git commit -m \\\"Log learning: verified /axiom/ live; updated GOALS.md checkbox\\\" && git push\", \"timeout\": 120}",
-      "model": "gpt-5",
-      "isClaudeExec": false,
-      "agent": "reception",
-      "session": "agent:reception:main"
-    },
-    {
-      "time": "2026-02-19T04:17:51.013Z",
-      "name": "read",
-      "argsPreview": "{\"path\": \"/home/node/.openclaw/workspace-reception/GOALS.md\"}",
-      "model": "gpt-5",
-      "isClaudeExec": false,
-      "agent": "reception",
-      "session": "agent:reception:main"
-    },
-    {
-      "time": "2026-02-19T04:17:54.687Z",
-      "name": "edit",
-      "argsPreview": "{\"path\": \"/home/node/.openclaw/workspace-reception/GOALS.md\", \"oldText\": \"- [ ] Figure out hosting/deployment \\u2014 find a way to deploy sites (GitHub Pages, Vercel, Netlify, or simple hosting)\", \"ne",
-      "model": "gpt-5",
-      "isClaudeExec": false,
-      "agent": "reception",
-      "session": "agent:reception:main"
-    },
-    {
-      "time": "2026-02-19T04:17:56.938Z",
-      "name": "read",
-      "argsPreview": "{\"path\": \"/home/node/.openclaw/workspace-reception/LEARNINGS.md\"}",
-      "model": "gpt-5",
-      "isClaudeExec": false,
-      "agent": "reception",
-      "session": "agent:reception:main"
-    },
-    {
-      "time": "2026-02-19T04:17:59.162Z",
-      "name": "edit",
-      "argsPreview": "{\"path\": \"/home/node/.openclaw/workspace-reception/LEARNINGS.md\", \"oldText\": \"### 2026-02-19 (UTC)\\n- Verified portfolio page at /axiom/ is live; checked off corresponding GOALS item.\\n\", \"newText\": \"",
-      "model": "gpt-5",
-      "isClaudeExec": false,
-      "agent": "reception",
-      "session": "agent:reception:main"
-    },
-    {
-      "time": "2026-02-19T04:18:00.938Z",
-      "name": "exec",
-      "argsPreview": "{\"command\": \"cd /home/node/.openclaw/workspace-reception && git add -A && git commit -m \\\"Phase 3: mark hosting/deployment as solved (nginx live server); log learning\\\" && git push\", \"timeout\": 120}",
-      "model": "gpt-5",
-      "isClaudeExec": false,
-      "agent": "reception",
-      "session": "agent:reception:main"
-    },
-    {
-      "time": "2026-02-19T05:02:41.035Z",
-      "name": "read",
-      "argsPreview": "{\"path\": \"/home/node/.openclaw/workspace-reception/HEARTBEAT.md\"}",
-      "model": "gpt-5",
-      "isClaudeExec": false,
-      "agent": "reception",
-      "session": "agent:reception:main"
-    },
-    {
-      "time": "2026-02-19T05:02:47.450Z",
-      "name": "exec",
-      "argsPreview": "{\"command\": \"ls -la /home/node/.openclaw/workspace-reception/scripts && sed -n '1,200p' /home/node/.openclaw/workspace-reception/scripts/scaffold_site.sh\"}",
-      "model": "gpt-5",
-      "isClaudeExec": false,
-      "agent": "reception",
-      "session": "agent:reception:main"
-    },
-    {
-      "time": "2026-02-19T05:02:53.066Z",
-      "name": "exec",
-      "argsPreview": "{\"command\": \"bash /home/node/.openclaw/workspace-reception/scripts/scaffold_site.sh pawperfect \\\"PawPerfect \\u2014 Dog Grooming\\\" \\\"Fresh cuts, happy pups. Book grooming via WhatsApp today.\\\" && ls -l",
-      "model": "gpt-5",
-      "isClaudeExec": false,
-      "agent": "reception",
-      "session": "agent:reception:main"
-    },
-    {
-      "time": "2026-02-19T05:02:54.586Z",
-      "name": "exec",
-      "argsPreview": "{\"command\": \"cd /home/node/website && git add -A && git commit -m \\\"Add demo site: PawPerfect grooming scaffold under /pawperfect/\\\" && git push\", \"timeout\": 120}",
-      "model": "gpt-5",
-      "isClaudeExec": false,
-      "agent": "reception",
-      "session": "agent:reception:main"
-    },
-    {
-      "time": "2026-02-19T05:02:58.152Z",
-      "name": "edit",
-      "argsPreview": "{\"path\": \"/home/node/.openclaw/workspace-reception/LEARNINGS.md\", \"oldText\": \"### 2026-02-19 (UTC)\\n- Verified portfolio page at /axiom/ is live; checked off corresponding GOALS item.\\n- Marked hostin",
-      "model": "gpt-5",
-      "isClaudeExec": false,
-      "agent": "reception",
-      "session": "agent:reception:main"
-    },
-    {
-      "time": "2026-02-19T05:02:59.894Z",
-      "name": "exec",
-      "argsPreview": "{\"command\": \"cd /home/node/.openclaw/workspace-reception && git add -A && git commit -m \\\"Heartbeat: scaffold first demo site /pawperfect/ and log learning\\\" && git push\", \"timeout\": 120}",
+      "argsPreview": "{\"path\": \"/home/node/.openclaw/workspace-reception/PRICING.md\"}",
       "model": "gpt-5",
       "isClaudeExec": false,
       "agent": "reception",
@@ -1010,6 +656,22 @@
     "totalCost": 0.0
   },
   "gitCommits": [
+    {
+      "repo": "workspace-reception",
+      "hash": "2e143c10",
+      "fullHash": "2e143c104e9d259762abab11ca36438017439f9d",
+      "time": "2026-02-19T05:18:07+00:00",
+      "author": "ClawdBot",
+      "message": "Heartbeat: add second demo site /clinic-demo/ and update LEARNINGS.md"
+    },
+    {
+      "repo": "website",
+      "hash": "df6fea76",
+      "fullHash": "df6fea76abed50288b7ebd6c78996319ee2fe550",
+      "time": "2026-02-19T05:18:00+00:00",
+      "author": "ClawdBot",
+      "message": "Add demo site: clinic-demo (Acme Dental) and update portfolio links to live previews"
+    },
     {
       "repo": "workspace-reception",
       "hash": "8314eee4",
@@ -1233,307 +895,32 @@
       "time": "2026-02-17T07:03:08+00:00",
       "author": "ClawdBot",
       "message": "Initial placeholder site"
-    },
-    {
-      "repo": "workspace-reception",
-      "hash": "5c3e5a85",
-      "fullHash": "5c3e5a85bf885a03385499c1c7fe494278171364",
-      "time": "2026-02-17T06:13:08+00:00",
-      "author": "root",
-      "message": "Initial self-improving agent setup: goals, learnings, heartbeat, self-edit protocol"
     }
   ],
   "recentEvents": [
     {
-      "time": "2026-02-19T05:17:37.578Z",
-      "level": "DEBUG",
-      "subsystem": "{\"subsystem\":\"agent/embedded\"}",
-      "message": "embedded run agent start: runId=e1a12865-efc4-4a5a-85b6-eb4b46947110",
-      "category": "info"
+      "time": "2026-02-19T05:17:51.166Z",
+      "level": "ERROR",
+      "subsystem": "[tools] exec failed: sh: 1: applypatch: not found\n\nCommand exited with code 127",
+      "message": "",
+      "category": "error"
     },
     {
-      "time": "2026-02-19T05:17:37.573Z",
-      "level": "DEBUG",
-      "subsystem": "{\"subsystem\":\"agent/embedded\"}",
-      "message": "embedded run prompt start: runId=e1a12865-efc4-4a5a-85b6-eb4b46947110 sessionId=b6cf711a-4061-4847-b2fd-c90bc3313590",
-      "category": "info"
-    },
-    {
-      "time": "2026-02-19T05:17:37.565Z",
-      "level": "DEBUG",
-      "subsystem": "{\"subsystem\":\"diagnostic\"}",
-      "message": "run registered: sessionId=b6cf711a-4061-4847-b2fd-c90bc3313590 totalActive=1",
-      "category": "info"
-    },
-    {
-      "time": "2026-02-19T05:17:37.536Z",
-      "level": "DEBUG",
-      "subsystem": "{\"subsystem\":\"agent/embedded\"}",
-      "message": "embedded run start: runId=e1a12865-efc4-4a5a-85b6-eb4b46947110 sessionId=b6cf711a-4061-4847-b2fd-c90bc3313590 provider=openai model=gpt-5 thinking=low messageChannel=heartbeat",
-      "category": "heartbeat"
-    },
-    {
-      "time": "2026-02-19T05:17:37.289Z",
-      "level": "DEBUG",
-      "subsystem": "{\"subsystem\":\"diagnostic\"}",
-      "message": "lane dequeue: lane=main waitMs=3 queueSize=0",
-      "category": "info"
-    },
-    {
-      "time": "2026-02-19T05:17:37.286Z",
-      "level": "DEBUG",
-      "subsystem": "{\"subsystem\":\"diagnostic\"}",
-      "message": "lane enqueue: lane=main queueSize=1",
-      "category": "info"
-    },
-    {
-      "time": "2026-02-19T05:17:37.283Z",
-      "level": "DEBUG",
-      "subsystem": "{\"subsystem\":\"diagnostic\"}",
-      "message": "lane dequeue: lane=session:agent:reception:main waitMs=3 queueSize=0",
-      "category": "info"
-    },
-    {
-      "time": "2026-02-19T05:17:37.278Z",
-      "level": "DEBUG",
-      "subsystem": "{\"subsystem\":\"diagnostic\"}",
-      "message": "lane enqueue: lane=session:agent:reception:main queueSize=1",
-      "category": "info"
-    },
-    {
-      "time": "2026-02-19T05:17:24.808Z",
-      "level": "INFO",
-      "subsystem": "{\"module\":\"web-heartbeat\",\"runId\":\"3cecfd19-128d-4505-998b-9d1b97219542\"}",
-      "message": "web gateway heartbeat",
-      "category": "heartbeat"
-    },
-    {
-      "time": "2026-02-19T05:16:24.802Z",
-      "level": "INFO",
-      "subsystem": "{\"module\":\"web-heartbeat\",\"runId\":\"3cecfd19-128d-4505-998b-9d1b97219542\"}",
-      "message": "web gateway heartbeat",
-      "category": "heartbeat"
-    },
-    {
-      "time": "2026-02-19T05:15:24.793Z",
-      "level": "INFO",
-      "subsystem": "{\"module\":\"web-heartbeat\",\"runId\":\"3cecfd19-128d-4505-998b-9d1b97219542\"}",
-      "message": "web gateway heartbeat",
-      "category": "heartbeat"
-    },
-    {
-      "time": "2026-02-19T05:14:24.786Z",
-      "level": "INFO",
-      "subsystem": "{\"module\":\"web-heartbeat\",\"runId\":\"3cecfd19-128d-4505-998b-9d1b97219542\"}",
-      "message": "web gateway heartbeat",
-      "category": "heartbeat"
-    },
-    {
-      "time": "2026-02-19T05:13:24.782Z",
-      "level": "INFO",
-      "subsystem": "{\"module\":\"web-heartbeat\",\"runId\":\"3cecfd19-128d-4505-998b-9d1b97219542\"}",
-      "message": "web gateway heartbeat",
-      "category": "heartbeat"
-    },
-    {
-      "time": "2026-02-19T05:12:24.776Z",
-      "level": "INFO",
-      "subsystem": "{\"module\":\"web-heartbeat\",\"runId\":\"3cecfd19-128d-4505-998b-9d1b97219542\"}",
-      "message": "web gateway heartbeat",
-      "category": "heartbeat"
-    },
-    {
-      "time": "2026-02-19T05:11:24.768Z",
-      "level": "INFO",
-      "subsystem": "{\"module\":\"web-heartbeat\",\"runId\":\"3cecfd19-128d-4505-998b-9d1b97219542\"}",
-      "message": "web gateway heartbeat",
-      "category": "heartbeat"
-    },
-    {
-      "time": "2026-02-19T05:10:24.767Z",
-      "level": "INFO",
-      "subsystem": "{\"module\":\"web-heartbeat\",\"runId\":\"3cecfd19-128d-4505-998b-9d1b97219542\"}",
-      "message": "web gateway heartbeat",
-      "category": "heartbeat"
-    },
-    {
-      "time": "2026-02-19T05:09:24.759Z",
-      "level": "INFO",
-      "subsystem": "{\"module\":\"web-heartbeat\",\"runId\":\"3cecfd19-128d-4505-998b-9d1b97219542\"}",
-      "message": "web gateway heartbeat",
-      "category": "heartbeat"
-    },
-    {
-      "time": "2026-02-19T05:08:24.752Z",
-      "level": "INFO",
-      "subsystem": "{\"module\":\"web-heartbeat\",\"runId\":\"3cecfd19-128d-4505-998b-9d1b97219542\"}",
-      "message": "web gateway heartbeat",
-      "category": "heartbeat"
-    },
-    {
-      "time": "2026-02-19T05:07:24.751Z",
-      "level": "INFO",
-      "subsystem": "{\"module\":\"web-heartbeat\",\"runId\":\"3cecfd19-128d-4505-998b-9d1b97219542\"}",
-      "message": "web gateway heartbeat",
-      "category": "heartbeat"
-    },
-    {
-      "time": "2026-02-19T05:06:24.743Z",
-      "level": "INFO",
-      "subsystem": "{\"module\":\"web-heartbeat\",\"runId\":\"3cecfd19-128d-4505-998b-9d1b97219542\"}",
-      "message": "web gateway heartbeat",
-      "category": "heartbeat"
-    },
-    {
-      "time": "2026-02-19T05:05:24.737Z",
-      "level": "INFO",
-      "subsystem": "{\"module\":\"web-heartbeat\",\"runId\":\"3cecfd19-128d-4505-998b-9d1b97219542\"}",
-      "message": "web gateway heartbeat",
-      "category": "heartbeat"
-    },
-    {
-      "time": "2026-02-19T05:04:24.729Z",
-      "level": "INFO",
-      "subsystem": "{\"module\":\"web-heartbeat\",\"runId\":\"3cecfd19-128d-4505-998b-9d1b97219542\"}",
-      "message": "web gateway heartbeat",
-      "category": "heartbeat"
-    },
-    {
-      "time": "2026-02-19T05:03:24.729Z",
-      "level": "INFO",
-      "subsystem": "{\"module\":\"web-heartbeat\",\"runId\":\"3cecfd19-128d-4505-998b-9d1b97219542\"}",
-      "message": "web gateway heartbeat",
-      "category": "heartbeat"
-    },
-    {
-      "time": "2026-02-19T05:03:02.701Z",
-      "level": "DEBUG",
-      "subsystem": "{\"subsystem\":\"diagnostic\"}",
-      "message": "lane task done: lane=session:agent:reception:main durationMs=25438 active=0 queued=0",
-      "category": "info"
-    },
-    {
-      "time": "2026-02-19T05:03:02.700Z",
-      "level": "DEBUG",
-      "subsystem": "{\"subsystem\":\"diagnostic\"}",
-      "message": "lane task done: lane=main durationMs=25433 active=0 queued=0",
-      "category": "info"
-    },
-    {
-      "time": "2026-02-19T05:03:02.698Z",
-      "level": "DEBUG",
-      "subsystem": "{\"subsystem\":\"agent/embedded\"}",
-      "message": "embedded run done: runId=984d326c-c4e6-42b1-9634-b6b4d479352d sessionId=b6cf711a-4061-4847-b2fd-c90bc3313590 durationMs=25431 aborted=false",
-      "category": "info"
-    },
-    {
-      "time": "2026-02-19T05:03:02.694Z",
-      "level": "DEBUG",
-      "subsystem": "{\"subsystem\":\"diagnostic\"}",
-      "message": "run cleared: sessionId=b6cf711a-4061-4847-b2fd-c90bc3313590 totalActive=0",
-      "category": "info"
-    },
-    {
-      "time": "2026-02-19T05:03:02.691Z",
-      "level": "DEBUG",
-      "subsystem": "{\"subsystem\":\"agent/embedded\"}",
-      "message": "embedded run prompt end: runId=984d326c-c4e6-42b1-9634-b6b4d479352d sessionId=b6cf711a-4061-4847-b2fd-c90bc3313590 durationMs=25184",
-      "category": "info"
-    },
-    {
-      "time": "2026-02-19T05:03:02.678Z",
-      "level": "DEBUG",
-      "subsystem": "{\"subsystem\":\"agent/embedded\"}",
-      "message": "embedded run agent end: runId=984d326c-c4e6-42b1-9634-b6b4d479352d isError=false",
-      "category": "info"
-    },
-    {
-      "time": "2026-02-19T05:03:00.564Z",
-      "level": "DEBUG",
-      "subsystem": "{\"subsystem\":\"agent/embedded\"}",
-      "message": "embedded run tool end: runId=984d326c-c4e6-42b1-9634-b6b4d479352d tool=exec toolCallId=call_FRC2kIihCVo7FTuZtj3aTXfs|fc_05852928a1d427a1006996998337588197a1e934fc792e535d",
-      "category": "info"
+      "time": "2026-02-19T05:17:51.160Z",
+      "level": "ERROR",
+      "subsystem": "[tools] exec failed: sh: 1: applypatch: not found\n\nCommand exited with code 127",
+      "message": "",
+      "category": "error"
     }
   ],
-  "heartbeats": [
-    {
-      "time": "2026-02-19T05:08:24.752Z",
-      "uptimeMs": 16621439,
-      "messagesHandled": 0,
-      "reconnectAttempts": 1,
-      "lastMessageAt": null
-    },
-    {
-      "time": "2026-02-19T05:09:24.759Z",
-      "uptimeMs": 16681446,
-      "messagesHandled": 0,
-      "reconnectAttempts": 1,
-      "lastMessageAt": null
-    },
-    {
-      "time": "2026-02-19T05:10:24.767Z",
-      "uptimeMs": 16741454,
-      "messagesHandled": 0,
-      "reconnectAttempts": 1,
-      "lastMessageAt": null
-    },
-    {
-      "time": "2026-02-19T05:11:24.768Z",
-      "uptimeMs": 16801455,
-      "messagesHandled": 0,
-      "reconnectAttempts": 1,
-      "lastMessageAt": null
-    },
-    {
-      "time": "2026-02-19T05:12:24.776Z",
-      "uptimeMs": 16861463,
-      "messagesHandled": 0,
-      "reconnectAttempts": 1,
-      "lastMessageAt": null
-    },
-    {
-      "time": "2026-02-19T05:13:24.782Z",
-      "uptimeMs": 16921469,
-      "messagesHandled": 0,
-      "reconnectAttempts": 1,
-      "lastMessageAt": null
-    },
-    {
-      "time": "2026-02-19T05:14:24.786Z",
-      "uptimeMs": 16981473,
-      "messagesHandled": 0,
-      "reconnectAttempts": 1,
-      "lastMessageAt": null
-    },
-    {
-      "time": "2026-02-19T05:15:24.793Z",
-      "uptimeMs": 17041481,
-      "messagesHandled": 0,
-      "reconnectAttempts": 1,
-      "lastMessageAt": null
-    },
-    {
-      "time": "2026-02-19T05:16:24.802Z",
-      "uptimeMs": 17101488,
-      "messagesHandled": 0,
-      "reconnectAttempts": 1,
-      "lastMessageAt": null
-    },
-    {
-      "time": "2026-02-19T05:17:24.808Z",
-      "uptimeMs": 17161495,
-      "messagesHandled": 0,
-      "reconnectAttempts": 1,
-      "lastMessageAt": null
-    }
-  ],
+  "heartbeats": [],
   "aiSummary": {
     "lastHour": [
-      "Session 3 remains active; no new sessions initiated.",
-      "Recent embedded run completed at 04:32, session ID b6cf711a-4061-4847-b2fd-c90b.",
-      "Total tokens used in last hour: minimal, with recent activity mainly from session management."
+      "No recent activity reported in the last hour.",
+      "Multiple recent commits related to demo sites (clinic-demo and pawperfect) and live deployment updates.",
+      "Heartbeat logs indicate ongoing site scaffolding and deployment logging."
     ],
-    "last24h": "Over the past 24 hours, three sessions have been actively managed and completed, with recent activity including embedded runs and log updates. Significant git commits and login activities contributed to ongoing project advancements.",
-    "generatedAt": "2026-02-19T04:38:37.037520+00:00"
+    "last24h": "Over the past 24 hours, the system executed multiple commits including adding demo sites for Clinic and PawPerfect, and confirming live deployment of the Axiom portfolio. Heartbeat activities focused on linking pages, scaffolding new sites, and deploying nginx servers. Errors recorded at 05:17 suggest minor issues, but no major incidents are noted.",
+    "generatedAt": "2026-02-20T03:41:11.587475+00:00"
   }
 }

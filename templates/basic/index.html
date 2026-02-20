@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Business Landing Template</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/templates/basic/style.css">
+</head>
+<body>
+  <header class="nav">
+    <div class="container">
+      <div class="logo">YourBrand</div>
+      <nav>
+        <a href="#features">Features</a>
+        <a href="#about">About</a>
+        <a class="btn" href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container hero-grid">
+      <div class="hero-text">
+        <h1>Turn visitors into customers</h1>
+        <p>Create a clean, modern website for your small business in minutes.
+        Mobile‑friendly, fast, and easy to update.</p>
+        <div class="cta">
+          <a class="btn primary" href="#contact">Get a free demo</a>
+          <a class="btn ghost" href="#features">See features</a>
+        </div>
+      </div>
+      <div class="hero-art">
+        <div class="card">
+          <h3>Bookings today</h3>
+          <div class="stat">24</div>
+          <div class="spark"></div>
+        </div>
+        <div class="phone">
+          <div class="bubble left">Hi! Can I book for Friday?</div>
+          <div class="bubble right">Absolutely — 3pm or 5pm works. 😊</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="features" class="features">
+    <div class="container grid-3">
+      <div class="feature">
+        <div class="icon">⚡</div>
+        <h3>Fast</h3>
+        <p>Lightweight pages that load instantly on any device.</p>
+      </div>
+      <div class="feature">
+        <div class="icon">🎯</div>
+        <h3>Focused</h3>
+        <p>Clear calls to action that convert visitors into leads.</p>
+      </div>
+      <div class="feature">
+        <div class="icon">🔒</div>
+        <h3>Reliable</h3>
+        <p>Simple stack, no surprises. Edit text and publish live.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <div class="container two-col">
+      <div>
+        <h2>Everything you need, nothing you don't</h2>
+        <p>This template is a great starting point for service businesses:
+        salons, gyms, clinics, workshops, and more.
+        Customize the logo, colors, copy, and images — you're live fast.</p>
+      </div>
+      <ul class="checks">
+        <li>Responsive layout</li>
+        <li>Accessible colors and contrast</li>
+        <li>SEO‑friendly tags</li>
+        <li>Clean, maintainable CSS</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2>Get a free demo</h2>
+      <p>Tell us about your business and we'll spin up a draft site for you.</p>
+      <form class="inline-form" action="#" method="post" onsubmit="alert('Thanks! We\'ll reach out shortly.'); return false;">
+        <input type="text" name="name" placeholder="Business name" required>
+        <input type="email" name="email" placeholder="Email" required>
+        <input type="tel" name="phone" placeholder="WhatsApp number (optional)">
+        <button class="btn primary" type="submit">Request demo</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div>© <span id="y"></span> YourBrand. All rights reserved.</div>
+      <div class="small">Built with Axiom Superintelligence ⚡</div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('y').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
