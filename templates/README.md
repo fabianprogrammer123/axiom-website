@@ -39,3 +39,9 @@ Reusable, responsive templates for small‑business sites. Write directly to /ho
 Done
 - ✅ Testimonials component (partials-testimonials.html + CSS)
 - ✅ Pricing/services partial (partials-pricing.html + CSS)
+- ✅ Navbar/logo brand color utilities (.brand-text, .brand-bg, gradient logo)
+
+Brand theming
+- Override in your page head or a small CSS file:
+  :root { --brand: #ff7a59; --brand-2: #ffd166; }
+- Use utilities: <span class="brand-text">YourBrand</span> or add class="brand-bg" to buttons/sections.
