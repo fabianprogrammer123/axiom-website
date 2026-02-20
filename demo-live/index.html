@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Live Demo — WhatsApp-style AI Assistant</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/templates/basic/style.css">
+  <link rel="stylesheet" href="/templates/basic/light.css">
+  <style>
+    .chat-wrap{max-width:900px;margin:28px auto;padding:0 16px}
+    .chat{background:var(--panel);border:1px solid var(--line);border-radius:16px;overflow:hidden}
+    .chat-header{display:flex;align-items:center;gap:10px;padding:12px 14px;border-bottom:1px solid var(--line)}
+    .dot{width:8px;height:8px;border-radius:999px;background:#22c55e}
+    .chat-body{height:420px;overflow:auto;padding:16px;background:linear-gradient(180deg,rgba(16,22,29,0.03),rgba(16,22,29,0));}
+    .msg{max-width:70%;padding:10px 12px;border-radius:14px;margin:8px 0;line-height:1.4}
+    .msg.user{background:#e6f0ff;color:#0b1220;margin-left:auto}
+    .msg.bot{background:#e6fffb;color:#0b1220}
+    .typing{font-size:12px;color:var(--muted);padding:0 6px}
+    .chat-input{display:flex;gap:8px;padding:12px;border-top:1px solid var(--line);background:var(--panel)}
+    .chat-input input{flex:1;border:1px solid var(--line);border-radius:12px;padding:12px;background:#f8fafc;color:#0b1220}
+    .qbar{display:flex;gap:8px;flex-wrap:wrap;padding:8px 12px;border-top:1px solid var(--line);background:#f8fafc}
+    .chip{padding:6px 10px;border-radius:999px;border:1px solid #d0d7e2;background:white;color:#0b1220;font-size:13px;cursor:pointer}
+    .head{padding:24px 16px;text-align:center}
+    .head h1{margin:0 0 8px}
+    .muted{color:var(--muted)}
+  </style>
+</head>
+<body>
+  <header class="nav">
+    <div class="container">
+      <div class="logo">Axiom Demo</div>
+      <nav>
+        <a href="/axiom/">Portfolio</a>
+        <a class="btn" href="/demo-intake/">Demo Intake</a>
+      </nav>
+    </div>
+  </header>
+
+  <div class="chat-wrap">
+    <div class="head">
+      <h1>Try the assistant</h1>
+      <p class="muted">This in-browser demo simulates a WhatsApp AI for a generic service business. No backend needed.</p>
+    </div>
+    <div class="chat">
+      <div class="chat-header">
+        <div class="dot"></div>
+        <strong>Assistant</strong>
+        <span class="muted" style="margin-left:auto">Online</span>
+      </div>
+      <div id="chat" class="chat-body">
+        <div class="msg bot">Hi! I can help with pricing, availability, and bookings. How can I help today?</div>
+      </div>
+      <div class="qbar" id="qbar"></div>
+      <form class="chat-input" id="form">
+        <input id="inp" type="text" placeholder="Type a message..." autocomplete="off" required>
+        <button class="btn primary" type="submit">Send</button>
+      </form>
+    </div>
+  </div>
+
+  <script>
+    const chat = document.getElementById('chat');
+    const form = document.getElementById('form');
+    const inp = document.getElementById('inp');
+    const qbar = document.getElementById('qbar');
+
+    const intents = [
+      { q: 'Pricing', t: 'pricing' },
+      { q: 'Availability', t: 'availability' },
+      { q: 'Book an appointment', t: 'booking' },
+      { q: 'Location', t: 'location' },
+      { q: 'Hours', t: 'hours' }
+    ];
+
+    const replies = {
+      pricing: 'Our basic service starts at $49. For bundles and deep cleans, most customers spend $89–$149. Would you like a quick quote?',
+      availability: 'We have openings tomorrow at 10am and 2pm, and Friday at 11am or 4pm. What works for you?',
+      booking: 'Sure — can I grab your name, preferred date/time, and the service you need? I’ll confirm in a minute.',
+      location: 'We serve the downtown area and nearby neighborhoods within a 10‑mile radius. What’s your cross street?',
+      hours: 'We’re open Mon–Sat, 8am–6pm. After‑hours by request.'
+    };
+
+    function addMsg(text, who='bot'){
+      const div = document.createElement('div');
+      div.className = 'msg ' + who;
+      div.textContent = text;
+      chat.appendChild(div);
+      chat.scrollTop = chat.scrollHeight;
+    }
+
+    function typing(on=true){
+      let t = document.querySelector('.typing');
+      if(on){
+        if(!t){ t = document.createElement('div'); t.className='typing'; t.textContent='Assistant is typing…'; chat.appendChild(t); }
+      } else if(t){ t.remove(); }
+      chat.scrollTop = chat.scrollHeight;
+    }
+
+    function handle(text){
+      const l = text.toLowerCase();
+      let key = null;
+      if(l.includes('price')||l.includes('cost')) key='pricing';
+      else if(l.includes('avail')||l.includes('open')) key='availability';
+      else if(l.includes('book')||l.includes('appoint')) key='booking';
+      else if(l.includes('where')||l.includes('location')||l.includes('address')) key='location';
+      else if(l.includes('hour')||l.includes('time')) key='hours';
+      const base = key ? replies[key] : "Got it! I can help with pricing, availability, bookings, and hours. Which would you like?";
+      typing(true);
+      setTimeout(()=>{ typing(false); addMsg(base,'bot'); if(key==='pricing'||key==='availability'){ addQuick(['Book 10am','Book 2pm','Get a quote']); } }, 600);
+    }
+
+    function addQuick(list){
+      qbar.innerHTML='';
+      list.forEach(txt=>{
+        const b = document.createElement('button');
+        b.type='button'; b.className='chip'; b.textContent=txt;
+        b.onclick=()=>{ addMsg(txt,'user'); handle(txt); };
+        qbar.appendChild(b);
+      });
+    }
+
+    // seed quick intents
+    addQuick(intents.map(x=>x.q));
+
+    form.addEventListener('submit', (e)=>{
+      e.preventDefault();
+      const v = inp.value.trim();
+      if(!v) return;
+      addMsg(v,'user');
+      inp.value='';
+      handle(v);
+    });
+  </script>
+</body>
+</html>
