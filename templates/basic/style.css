@@ -44,6 +44,22 @@ html, body { margin:0; padding:0; font-family: Inter, system-ui, -apple-system, 
 .feature h3 { margin: 10px 0 6px; }
 .feature p { color: var(--muted); margin: 0; }
 
+/* Pricing */
+.pricing { padding: 56px 0; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+.pricing .muted { color: var(--muted); margin: 6px 0 18px; }
+.price-grid { display:grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+.price-card { position: relative; background: var(--panel); border: 1px solid var(--line); border-radius: 16px; padding: 18px; }
+.price-card .badge { position:absolute; top: -12px; right: 12px; background: linear-gradient(90deg, var(--brand), var(--brand-2)); color:#041016; font-weight:700; font-size:12px; padding:4px 8px; border-radius:999px; }
+.price-card.highlight { outline: 2px solid rgba(91,156,255,0.35); }
+.plan { margin: 0 0 8px; font-size: 18px; }
+.price { display:flex; align-items: baseline; gap: 6px; margin: 4px 0 12px; }
+.amount { font-size: 32px; font-weight: 800; }
+.unit { color: var(--muted); }
+.price-card .features { padding: 0; border: none; }
+.price-card ul.features { list-style: none; margin: 0 0 14px; padding: 0; }
+.price-card ul.features li { margin: 8px 0; padding-left: 20px; position: relative; color: var(--muted); }
+.price-card ul.features li::before { content: '•'; position: absolute; left: 6px; color: var(--brand-2); }
+
 .about { padding: 56px 0; border-bottom: 1px solid var(--line); }
 .two-col { display:grid; grid-template-columns: 1.2fr 0.8fr; gap: 28px; align-items: start; }
 .checks { list-style: none; padding: 0; margin: 0; }

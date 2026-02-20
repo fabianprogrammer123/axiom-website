@@ -34,8 +34,8 @@ Reusable, responsive templates for small‑business sites. Write directly to /ho
 ## Roadmap
 
 - Add light theme variant
-- Add service list/price table partial
 - Add navbar logo + brand color variables
 
 Done
 - ✅ Testimonials component (partials-testimonials.html + CSS)
+- ✅ Pricing/services partial (partials-pricing.html + CSS)
