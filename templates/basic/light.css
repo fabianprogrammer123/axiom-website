@@ -1,0 +1,18 @@
+:root {
+  --bg: #f8fafc;
+  --panel: #ffffff;
+  --text: #0b1220;
+  --muted: #475569;
+  --brand: #2563eb;
+  --brand-2: #22d3ee;
+  --line: #e2e8f0;
+}
+html, body { background: var(--bg); color: var(--text); }
+.nav { background: rgba(255,255,255,0.75); border-bottom-color: var(--line); }
+.btn { background: #f1f5f9; border-color: var(--line); color: var(--text); }
+.btn.primary { background: linear-gradient(135deg, var(--brand), var(--brand-2)); color: #041016; }
+.hero { background: radial-gradient(1200px 500px at 20% -200px, rgba(37,99,235,0.18), transparent 60%), radial-gradient(1200px 600px at 80% -150px, rgba(34,211,238,0.14), transparent 60%); border-bottom-color: var(--line); }
+.card, .feature, .price-card, .t-card { background: var(--panel); border-color: var(--line); }
+.bubble.left { background: #e6f0ff; color: #0b1220; }
+.bubble.right { background: #e6fffb; color: #0b1220; }
+.footer { border-top-color: var(--line); }

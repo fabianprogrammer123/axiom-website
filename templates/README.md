@@ -4,9 +4,11 @@ Reusable, responsive templates for small‑business sites. Write directly to /ho
 
 ## Templates
 
-- basic/ — Minimal, modern dark UI with responsive grid, hero, features, about, and contact inline form. Includes:
-  - index.html example structure
-  - style.css (mobile‑first, accessible contrast)
+- basic/ — Minimal, modern UI with responsive grid, hero, features, about, and contact inline form. Includes:
+  - style.css (dark theme, mobile‑first, accessible contrast)
+  - light.css (variable overrides for a light theme)
+  - partials-testimonials.html
+  - partials-pricing.html
 
 ## How to Use
 
@@ -18,6 +20,10 @@ Reusable, responsive templates for small‑business sites. Write directly to /ho
 2) Reference the shared CSS to avoid duplication:
 
    <link rel="stylesheet" href="/templates/basic/style.css">
+
+   Optional light theme (after style.css):
+
+   <link rel="stylesheet" href="/templates/basic/light.css">
 
 3) Customize copy, logo text, and CTAs in your new index.html.
 
